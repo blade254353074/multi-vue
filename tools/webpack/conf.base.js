@@ -25,19 +25,15 @@ module.exports = {
     chunkFilename: 'assets/js/chunk.[name].js'
   },
   resolve: {
-    extensions: ['', 'js', 'vue'],
-    fallback: urls.node_modules,
+    extensions: ['.js', '.vue', '.css', '.scss', '.gif', '.png', '.jpg', '.jpeg', '.json', '.html'],
     alias: {
-      Components: urls.components,
-      Assets: urls.assets
+      components: urls.components,
+      assets: urls.assets
     }
-  },
-  resolveLoader: {
-    root: urls.node_modules
   },
   module: {
     rules: [{
-      test: /\.vue$/,
+      test: /\.(vue|js)$/,
       enforce: "pre",
       loader: 'standard',
       exclude: /(node_modules|bower_components)/
@@ -66,6 +62,9 @@ module.exports = {
         limit: 10000,
         name: 'assets/fonts/[name].[ext]'
       }
+    }, {
+      test: /\.html$/,
+      loader: 'html'
     }, {
       test: /\.json$/,
       loader: 'json'

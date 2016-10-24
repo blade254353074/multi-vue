@@ -19,7 +19,7 @@ const urls = {
   assets: path.resolve(src, 'assets'),
   components: path.resolve(src, 'components'),
   pages: path.resolve(src, 'pages'),
-  bootstrap: path.resolve(src, 'components/bootstrap'),
+  bootstrap: path.resolve(src, 'components/bootstrap.js'),
   helpers: path.resolve(src, 'handlebars/helpers'),
   templates: path.resolve(src, 'handlebars/templates')
 }

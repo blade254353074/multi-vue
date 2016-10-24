@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img class="logo" src="./assets/logo.png">
+    <img class="logo" src="~assets/imgs/logo.png" />
     <hello></hello>
     <p>
       Welcome to your Vue.js app!
@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import Hello from 'Components/Hello'
+import Hello from 'components/Hello'
 
 export default {
   components: {
@@ -32,7 +32,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 html {
   height: 100%;
 }
@@ -50,11 +50,10 @@ body {
   max-width: 600px;
   font-family: Source Sans Pro, Helvetica, sans-serif;
   text-align: center;
-}
-
-#app a {
-  color: #42b983;
-  text-decoration: none;
+  a {
+    color: #42b983;
+    text-decoration: none;
+  }
 }
 
 .logo {

@@ -73,8 +73,8 @@ function constructHtmlPluginsConfigArray (pagesAttr) {
     let inject
     let config
     if (NODE_ENV !== 'production') {
-      inject = 'head' // 注入到头部避免样式震动
-      chunks = ['[development]', page.templateKey, 'vendor']
+      inject = true // 注入到头部避免样式震动
+      chunks = ['[dev]', page.templateKey, 'vendor']
     } else { // 生产环境
       inject = true
       chunks = ['vendor']
@@ -84,7 +84,7 @@ function constructHtmlPluginsConfigArray (pagesAttr) {
       _templateKey: page.templateKey,
       filename: `${page.key}.html`,
       template: page.template,
-      chunksSortMode: 'dependency', // 防止 [development] 被放到最后
+      chunksSortMode: 'dependency', // 防止 [dev] 被放到最后
       chunks,
       inject
     }
@@ -112,8 +112,6 @@ function getPagesConfig () {
     const pagesAttr = constructEntries(templateFiles)
     const entry = constructEntryObject(pagesAttr, 'bind') // Object
     const htmls = constructHtmlPluginsConfigArray(pagesAttr) // Array
-    /* Generate links */
-    linksGenerate(pagesAttr)
 
     return { entry, htmls }
   } catch (err) {
@@ -122,4 +120,4 @@ function getPagesConfig () {
   }
 }
 
-module.exports = getPagesConfig
+module.exports = getPagesConfig()

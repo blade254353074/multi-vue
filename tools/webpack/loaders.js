@@ -1,28 +1,37 @@
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
-// generate loader string to be used with extract text plugin
-function generateLoaders (loaders, options) {
-  const sourceLoader = loaders.map(function (loader) {
-    const extraParamChar = /\?/.test(loader) ? '&' : '?'
-    return loader + (options.sourceMap ? `${extraParamChar}sourceMap` : '')
-  })
-
-  return options.extract
-    ? [ExtractTextPlugin.extract('vue-style', sourceLoader)]
-    : ['vue-style', sourceLoader]
-}
 
 exports.css = function cssLoaders (options) {
   options = Object.assign({}, options)
 
+  // generate loader string to be used with extract text plugin
+  function generateLoaders (loaders) {
+    const sourceLoader = loaders.map(function (loader) {
+      /* vue-loader 必须加 -loader 必须用字符串 */
+      let extraParamChar
+      if (/\?/.test(loader)) {
+        loader = loader.replace(/\?/, '-loader?')
+        extraParamChar = '&'
+      } else {
+        loader = `${loader}-loader`
+        extraParamChar = '?'
+      }
+      return loader + (options.sourceMap ? `${extraParamChar}sourceMap` : '')
+    })
+
+    return options.extract
+      ? [ExtractTextPlugin.extract('vue-style-loader', sourceLoader)]
+      : ['vue-style-loader', sourceLoader.join('!')].join('!')
+  }
+
   return {
-    css: generateLoaders(['css'], options),
-    postcss: generateLoaders(['css'], options),
-    less: generateLoaders(['css', 'less'], options),
-    sass: generateLoaders(['css', 'sass?indentedSyntax'], options),
-    scss: generateLoaders(['css', 'sass'], options),
-    stylus: generateLoaders(['css', 'stylus'], options),
-    styl: generateLoaders(['css', 'stylus'], options)
+    css: generateLoaders(['css']),
+    postcss: generateLoaders(['css']),
+    less: generateLoaders(['css', 'less']),
+    sass: generateLoaders(['css', 'sass?indentedSyntax']),
+    scss: generateLoaders(['css', 'sass']),
+    stylus: generateLoaders(['css', 'stylus']),
+    styl: generateLoaders(['css', 'stylus'])
   }
 }
 
@@ -34,7 +43,7 @@ exports.style = function styleLoaders (options) {
   for (let ext in loaders) {
     output.push({
       test: new RegExp(`\\.${ext}$`),
-      use: loaders[ext]
+      loader: loaders[ext]
     })
   }
 

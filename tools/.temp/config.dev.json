@@ -1,0 +1,200 @@
+{
+  "entry": {
+    "vendor": [
+      "fastclick",
+      "/Users/SebastianBlade/Documents/Workspace/Web/vue/vue-multipage/src/components/bootstrap.js"
+    ],
+    "[dev]": [
+      "webpack-dev-server/client?http://192.168.1.114:8080",
+      "webpack/hot/dev-server"
+    ],
+    "index": [
+      "/Users/SebastianBlade/Documents/Workspace/Web/vue/vue-multipage/src/pages/index/main.html",
+      "/Users/SebastianBlade/Documents/Workspace/Web/vue/vue-multipage/src/pages/index/main.js"
+    ],
+    "ui": [
+      "/Users/SebastianBlade/Documents/Workspace/Web/vue/vue-multipage/src/pages/ui/main.html",
+      "/Users/SebastianBlade/Documents/Workspace/Web/vue/vue-multipage/src/pages/ui/main.js"
+    ]
+  },
+  "output": {
+    "path": "/Users/SebastianBlade/Documents/Workspace/Web/vue/vue-multipage/build",
+    "publicPath": "/",
+    "filename": "assets/js/[name].js",
+    "chunkFilename": "assets/js/chunk.[name].js"
+  },
+  "resolve": {
+    "extensions": [
+      ".js",
+      ".vue",
+      ".css",
+      ".scss",
+      ".gif",
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".json",
+      ".html"
+    ],
+    "alias": {
+      "components": "/Users/SebastianBlade/Documents/Workspace/Web/vue/vue-multipage/src/components",
+      "assets": "/Users/SebastianBlade/Documents/Workspace/Web/vue/vue-multipage/src/assets"
+    }
+  },
+  "module": {
+    "rules": [
+      {
+        "test": {},
+        "enforce": "pre",
+        "loader": "standard",
+        "exclude": {}
+      },
+      {
+        "test": {},
+        "loader": "vue",
+        "options": {
+          "loaders": {
+            "css": "vue-style-loader!css-loader",
+            "postcss": "vue-style-loader!css-loader",
+            "less": "vue-style-loader!css-loader!less-loader",
+            "sass": "vue-style-loader!css-loader!sass-loader?indentedSyntax",
+            "scss": "vue-style-loader!css-loader!sass-loader",
+            "stylus": "vue-style-loader!css-loader!stylus-loader",
+            "styl": "vue-style-loader!css-loader!stylus-loader"
+          },
+          "postcss": [
+            null
+          ]
+        }
+      },
+      {
+        "test": {},
+        "loader": "babel",
+        "exclude": {}
+      },
+      {
+        "test": {},
+        "loader": "url",
+        "options": {
+          "limit": 1000,
+          "name": "assets/imgs/[name].[ext]"
+        }
+      },
+      {
+        "test": {},
+        "loader": "url",
+        "options": {
+          "limit": 10000,
+          "name": "assets/fonts/[name].[ext]"
+        }
+      },
+      {
+        "test": {},
+        "loader": "html"
+      },
+      {
+        "test": {},
+        "loader": "json"
+      },
+      {
+        "test": {},
+        "loader": "vue-style-loader!css-loader?sourceMap"
+      },
+      {
+        "test": {},
+        "loader": "vue-style-loader!css-loader?sourceMap"
+      },
+      {
+        "test": {},
+        "loader": "vue-style-loader!css-loader?sourceMap!less-loader?sourceMap"
+      },
+      {
+        "test": {},
+        "loader": "vue-style-loader!css-loader?sourceMap!sass-loader?indentedSyntax&sourceMap"
+      },
+      {
+        "test": {},
+        "loader": "vue-style-loader!css-loader?sourceMap!sass-loader?sourceMap"
+      },
+      {
+        "test": {},
+        "loader": "vue-style-loader!css-loader?sourceMap!stylus-loader?sourceMap"
+      },
+      {
+        "test": {},
+        "loader": "vue-style-loader!css-loader?sourceMap!stylus-loader?sourceMap"
+      }
+    ]
+  },
+  "devtool": "eval-source-map",
+  "plugins": [
+    {
+      "definitions": {
+        "process.env": {
+          "NODE_ENV": "\"development\""
+        }
+      }
+    },
+    {
+      "port": 9838,
+      "handler": null
+    },
+    {
+      "fullBuildTimeout": 200
+    },
+    {},
+    {
+      "url": "http://localhost:8080/"
+    },
+    {
+      "options": {
+        "template": "/Users/SebastianBlade/Documents/Workspace/Web/vue/vue-multipage/src/pages/index/main.html",
+        "filename": "index.html",
+        "hash": false,
+        "inject": true,
+        "compile": true,
+        "favicon": false,
+        "minify": false,
+        "cache": true,
+        "showErrors": true,
+        "chunks": [
+          "[dev]",
+          "[template]index",
+          "vendor",
+          "index"
+        ],
+        "excludeChunks": [],
+        "title": "Webpack App",
+        "xhtml": false,
+        "_key": "index",
+        "_templateKey": "[template]index",
+        "chunksSortMode": "dependency"
+      }
+    },
+    {
+      "options": {
+        "template": "/Users/SebastianBlade/Documents/Workspace/Web/vue/vue-multipage/src/pages/ui/main.html",
+        "filename": "ui.html",
+        "hash": false,
+        "inject": true,
+        "compile": true,
+        "favicon": false,
+        "minify": false,
+        "cache": true,
+        "showErrors": true,
+        "chunks": [
+          "[dev]",
+          "[template]ui",
+          "vendor",
+          "ui"
+        ],
+        "excludeChunks": [],
+        "title": "Webpack App",
+        "xhtml": false,
+        "_key": "ui",
+        "_templateKey": "[template]ui",
+        "chunksSortMode": "dependency"
+      }
+    }
+  ]
+}

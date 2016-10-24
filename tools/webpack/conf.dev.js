@@ -1,9 +1,11 @@
+const fs = require('fs')
 const webpack = require('webpack')
 const merge = require('webpack-merge')
 
 /* Config */
 const port = 8080
 const ip = require('../config/ip')
+const urls = require('../urls')
 const config = require('../config')
 const webpackConfBase = require('./conf.base')
 const loaders = require('./loaders')
@@ -25,7 +27,7 @@ const webpackConf = merge(webpackConfBase, {
   module: {
     rules: loaders.style({ sourceMap: true })
   },
-  devtool: '#eval-source-map',
+  devtool: 'eval-source-map',
   plugins: [
     new webpack.DefinePlugin({
       'process.env': { NODE_ENV: '"development"' }
@@ -33,10 +35,11 @@ const webpackConf = merge(webpackConfBase, {
     new DashboardPlugin(),
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin(),
+    new OpenBrowserPlugin({ url: `http://localhost:${port}/` }),
     ...config.htmls.map(conf => new HtmlWebpackPlugin(conf))
   ]
 })
 
-fs.writeFileSync(`${urls.temp}/config.dev.json`, JSON.stringify(config, null, 2), 'utf8')
+fs.writeFileSync(`${urls.temp}/config.dev.json`, JSON.stringify(webpackConf, null, 2), 'utf8')
 
 module.exports = webpackConf

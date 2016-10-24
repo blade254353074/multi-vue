@@ -7,7 +7,7 @@ const ip = require('../config/ip')
 const urls = require('../urls')
 const webpackConfDev = require('./conf.dev')
 
-const compiler = webpack(config)
+const compiler = webpack(webpackConfDev)
 const server = new WebpackDevServer(compiler, {
   hot: true,
   compress: true,

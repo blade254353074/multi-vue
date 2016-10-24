@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dashboard -- node tools/webpack/dev.server.js",
+    "dev": "cross-env NODE_ENV=development node tools/webpack/dev.server.js",
     "prebuild": "rimraf ./build",
     "build": "cross-env NODE_ENV=production webpack --config ./tools/webpack/conf.prod.js",
     "test": "testcafe chrome ./test/testcafe/index.js"
@@ -15,6 +16,10 @@
   ],
   "author": "blade254353074 <blade254353074@hotmail.com>",
   "license": "MIT",
+  "dependencies": {
+    "fastclick": "^1.0.6",
+    "vue": "^2.0.3"
+  },
   "devDependencies": {
     "autoprefixer": "^6.5.1",
     "babel-core": "^6.17.0",
@@ -30,6 +35,8 @@
     "file-loader": "^0.9.0",
     "fs-extra": "^0.30.0",
     "glob": "^7.1.1",
+    "happypack": "^2.2.1",
+    "html-loader": "^0.4.4",
     "html-webpack-plugin": "^2.24.0",
     "imagemin-mozjpeg": "^6.0.0",
     "imagemin-webpack-plugin": "^1.2.1",
@@ -43,11 +50,11 @@
     "standard-loader": "^5.0.0",
     "testcafe": "^0.9.0",
     "url-loader": "^0.5.7",
-    "vue": "^2.0.3",
     "vue-loader": "^9.7.0",
     "vue-style-loader": "^1.0.0",
     "webpack": "^2.1.0-beta.25",
     "webpack-dashboard": "^0.2.0",
+    "webpack-dev-server": "^1.16.2",
     "webpack-manifest-plugin": "^1.1.0",
     "webpack-md5-hash": "^0.0.5",
     "webpack-merge": "^0.15.0"
