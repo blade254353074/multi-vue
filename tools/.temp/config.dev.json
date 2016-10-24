@@ -1,11 +1,12 @@
 {
   "entry": {
     "vendor": [
+      "vue",
       "fastclick",
-      "/Users/SebastianBlade/Documents/Workspace/Web/vue/vue-multipage/src/components/bootstrap.js"
+      "/Users/SebastianBlade/Documents/Workspace/Web/vue/vue-multipage/src/components/bootstrap"
     ],
     "[dev]": [
-      "webpack-dev-server/client?http://192.168.1.114:8080",
+      "webpack-dev-server/client?http://192.168.0.178:8080",
       "webpack/hot/dev-server"
     ],
     "index": [
@@ -127,7 +128,7 @@
       }
     ]
   },
-  "devtool": "eval-source-map",
+  "devtool": "#eval-source-map",
   "plugins": [
     {
       "definitions": {
@@ -148,13 +149,21 @@
       "url": "http://localhost:8080/"
     },
     {
+      "chunkNames": "vendor",
+      "minChunks": null,
+      "ident": "/Users/SebastianBlade/Documents/Workspace/Web/vue/vue-multipage/node_modules/webpack/lib/optimize/CommonsChunkPlugin.js0"
+    },
+    {
+      "options": {}
+    },
+    {
       "options": {
         "template": "/Users/SebastianBlade/Documents/Workspace/Web/vue/vue-multipage/src/pages/index/main.html",
         "filename": "index.html",
         "hash": false,
         "inject": true,
         "compile": true,
-        "favicon": false,
+        "favicon": "/Users/SebastianBlade/Documents/Workspace/Web/vue/vue-multipage/src/assets/favicon.ico",
         "minify": false,
         "cache": true,
         "showErrors": true,
@@ -179,7 +188,7 @@
         "hash": false,
         "inject": true,
         "compile": true,
-        "favicon": false,
+        "favicon": "/Users/SebastianBlade/Documents/Workspace/Web/vue/vue-multipage/src/assets/favicon.ico",
         "minify": false,
         "cache": true,
         "showErrors": true,

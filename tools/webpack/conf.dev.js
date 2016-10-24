@@ -16,18 +16,17 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const OpenBrowserPlugin = require('open-browser-webpack-plugin')
 const HappyPack = require('happypack')
 
-const entry = Object.assign({
-  '[dev]': [
-    `webpack-dev-server/client?http://${ip}:${port}`,
-    'webpack/hot/dev-server',
-  ]
-}, config.entry)
 const webpackConf = merge(webpackConfBase, {
-  entry,
+  devtool: '#eval-source-map',
+  entry: Object.assign({
+    '[dev]': [
+      `webpack-dev-server/client?http://${ip}:${port}`,
+      'webpack/hot/dev-server',
+    ]
+  }, config.entry),
   module: {
     rules: loaders.style({ sourceMap: true })
   },
-  devtool: 'eval-source-map',
   plugins: [
     new webpack.DefinePlugin({
       'process.env': { NODE_ENV: '"development"' }
@@ -36,6 +35,11 @@ const webpackConf = merge(webpackConfBase, {
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin(),
     new OpenBrowserPlugin({ url: `http://localhost:${port}/` }),
+    new webpack.optimize.CommonsChunkPlugin({
+      name: 'vendor',
+      minChunks: Infinity
+    }),
+    new webpack.NamedModulesPlugin(),
     ...config.htmls.map(conf => new HtmlWebpackPlugin(conf))
   ]
 })

@@ -15,11 +15,11 @@ const urls = {
   webpack: path.resolve('tools/webpack'),
   temp: path.resolve('tools/.temp'),
   /* resource urls */
-  favicon: path.resolve(src, 'favicon'),
   assets: path.resolve(src, 'assets'),
   components: path.resolve(src, 'components'),
   pages: path.resolve(src, 'pages'),
-  bootstrap: path.resolve(src, 'components/bootstrap.js'),
+  favicon: path.resolve(src, 'assets/favicon.ico'),
+  bootstrap: path.resolve(src, 'components/bootstrap'),
   helpers: path.resolve(src, 'handlebars/helpers'),
   templates: path.resolve(src, 'handlebars/templates')
 }

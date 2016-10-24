@@ -12,11 +12,12 @@ const server = new WebpackDevServer(compiler, {
   hot: true,
   compress: true,
   noInfo: false,
+  progress: true,
   publicPath: '/',
   stats: {
     colors: true,
     displayModules: true,
-    profile: false
+    profile: true
   }
 })
 

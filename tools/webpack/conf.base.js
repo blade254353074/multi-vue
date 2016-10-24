@@ -14,6 +14,7 @@ const config = require('../config')
 module.exports = {
   entry: {
     'vendor': [
+      'vue',
       'fastclick',
       urls.bootstrap // 页面初始化
     ]
@@ -47,7 +48,11 @@ module.exports = {
       loader: 'vue',
       options: {
         loaders: loaders.css(),
-        postcss: [autoprefixer({ browsers: ['last 2 versions'] })] // TODO
+        postcss: [
+          require('autoprefixer')({
+            browsers: ['last 2 versions']
+          })
+        ] // TODO
       }
     }, {
       test: /\.jsx?$/,

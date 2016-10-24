@@ -85,6 +85,7 @@ function constructHtmlPluginsConfigArray (pagesAttr) {
       filename: `${page.key}.html`,
       template: page.template,
       chunksSortMode: 'dependency', // 防止 [dev] 被放到最后
+      favicon: urls.favicon,
       chunks,
       inject
     }
@@ -97,9 +98,10 @@ function constructHtmlPluginsConfigArray (pagesAttr) {
         _key: 'dir/page',
         _templateKey: '<template>-dir/page',
         filename: 'dir/page.html',
-        template: '/absolute/path/to/dir/page/main.html',
-        inject: true,
-        chunks: ['vendor', 'dir/page']
+        template: '/path/to/dir/page/main.html',
+        favicon: '/path/to/favicon.ico'
+        chunks: ['vendor', 'dir/page'],
+        inject: true
       }
     */
     return config

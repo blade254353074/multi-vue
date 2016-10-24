@@ -1,3 +1,4 @@
+import './app.scss'
 import Hello from 'components/Hello'
 import Logo from 'assets/imgs/logo.png'
 
