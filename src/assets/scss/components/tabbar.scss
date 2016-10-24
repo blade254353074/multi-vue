@@ -1,0 +1,64 @@
+$border: #ddd;
+$normal: #a4aab3;
+$active: #157afb;
+
+.ui-tabbar {
+  position: fixed;
+  display: table;
+  z-index: 1000;
+  bottom: 0;
+  width: 100%;
+  height: size(50);
+  border-top: 1px solid $border;
+  color: $normal;
+  background-color: #fff;
+  transition: bottom .2s;
+  .ui-tabbar-tab {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    &.active {
+      color: $active;
+      .ui-tabbar-image {
+        background-position-x: 100%;
+      }
+      .ui-tabber-link {
+        color: $active;
+      }
+    }
+    &:nth-of-type(1) {
+      .ui-tabbar-image {
+        background-position-y: 0;
+      }
+    }
+    &:nth-of-type(2) {
+      .ui-tabbar-image {
+        background-position-y: -.5rem;
+      }
+    }
+    &:nth-of-type(3) {
+      .ui-tabbar-image {
+        background-position-y: -1rem;
+      }
+    }
+  }
+  .ui-tabber-link {
+    display: block;
+    padding: size(5.75) 0;
+    color: $normal;
+  }
+  .ui-tabbar-icon { }
+  .ui-tabbar-image {
+    display: inline-block;
+    width: size(25);
+    height: size(25);
+    vertical-align: middle;
+    background: url(~assets/imgs/icon-tabbar.png) no-repeat 0;
+    background-size: 1rem;
+  }
+  .ui-tabbar-title {
+    margin-top: size(3);
+    line-height: 1;
+    font-size: size(10);
+  }
+}

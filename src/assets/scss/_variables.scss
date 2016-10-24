@@ -1,0 +1,35 @@
+// Corlors
+
+$primary: #108ee9;
+$primary-click: shade($primary, 16%);
+$primary-hover: tint($primary, 20%);
+$primary-light: tint($primary, 80%);
+$primary-hover-bg: tint($primary, 90%);
+
+$success: #89CE6C;
+$success-click: shade($success, 16%);
+$success-hover: tint($success, 20%);
+$success-light: tint($success, 80%);
+$success-hover-bg: tint($success, 90%);
+
+$warning: #fa0;
+$warning-click: shade($warning, 16%);
+$warning-hover: tint($warning, 20%);
+$warning-light: tint($warning, 80%);
+$warning-hover-bg: tint($warning, 90%);
+
+$danger: #f50;
+$danger-click: shade($danger, 16%);
+$danger-hover: tint($danger, 20%);
+$danger-light: tint($danger, 80%);
+$danger-hover-bg: tint($danger, 90%);
+
+$gray: #666;
+$gray-title: #404040;
+$gray-help: #999;
+$gray-disabled: #ccc;
+$gray-hover: #ddd;
+$gray-border: #d9d9d9;
+$gray-split: #e9e9e9;
+$gray-disabled-bg: #f4f4f4;
+$gray-bg: #fbfbfb;

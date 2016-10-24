@@ -1,0 +1,7 @@
+.clearfix {
+  @include clearfix();
+}
+
+.single-line {
+  @include single-line();
+}

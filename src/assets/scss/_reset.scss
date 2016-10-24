@@ -1,0 +1,89 @@
+*,
+ :after,
+ :before {
+  box-sizing: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  font-size: 50px;
+  line-height: 1.15;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  user-select: none;
+}
+
+body {
+  line-height: 1.5;
+  color: #666;
+  font-size: .28rem;
+  font-family: PingFang SC, Helvetica Neue, Hiragino Sans GB, Helvetica, Microsoft YaHei, Arial;
+  // -webkit-overflow-scrolling: touch;
+}
+
+:focus,
+a {
+  outline: none
+}
+
+a {
+  background: transparent;
+  text-decoration: none
+}
+
+button,
+input,
+select,
+textarea {
+  appearance: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+article,
+aside,
+blockquote,
+body,
+button,
+code,
+dd,
+details,
+div,
+dl,
+dt,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+input,
+legend,
+li,
+menu,
+nav,
+ol,
+p,
+pre,
+section,
+td,
+textarea,
+th,
+ul {
+  margin: 0;
+  padding: 0;
+}

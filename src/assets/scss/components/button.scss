@@ -1,0 +1,56 @@
+@mixin buttonType ($type, $color) {
+  .ui-button-#{$type} {
+    background-color: $color;
+    border-color: $color;
+    color: #fff;
+    &:active {
+      color: tint($color, 90%);
+      background-color: shade($color, 16%);
+    }
+  }
+}
+
+.ui-button {
+  position: relative;
+  display: inline-block;
+  padding: size(6) size(12);
+  font-size: size(16);
+  line-height: 1.5;
+  border: 1px solid $gray-border;
+  color: $gray-title;
+  background-color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  border-radius: size(3);
+  cursor: pointer;
+  &:active {
+    color: $gray-title;
+    background-color: $gray-hover;
+  }
+  &:disabled,
+  &.disabled {
+    color: $gray-help;
+    border-color: $gray-disabled;
+    background-color: $gray-disabled;
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+  &.ui-button-small {
+    padding: size(4) size(8);
+    font-size: size(13);
+    line-height: 1.2;
+  }
+}
+
+@include buttonType("primary", $primary);
+@include buttonType("success", $success);
+@include buttonType("warning", $warning);
+@include buttonType("danger", $danger);
+
+.ui-button-block {
+  display: block;
+  width: 100%;
+  padding: size(8) size(16);
+}

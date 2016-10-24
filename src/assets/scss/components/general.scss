@@ -1,0 +1,35 @@
+a {
+  color: $primary;
+  text-decoration: none;
+  &:active {
+    color: $primary-click;
+  }
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.text-helper {
+  color: $gray-help;
+}
+
+.ui-hiding {
+  animation: fadeOut .3s ease both;
+}
+
+.ui-selectable {
+  user-select: all;
+}
