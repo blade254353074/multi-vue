@@ -25,7 +25,7 @@ module.exports = {
     chunkFilename: 'assets/js/chunk.[name].js'
   },
   resolve: {
-    extensions: ['.js', '.vue', '.css', '.scss', '.gif', '.png', '.jpg', '.jpeg', '.json', '.html'],
+    extensions: ['.js', '.jsx', '.vue', '.css', '.scss', '.gif', '.png', '.jpg', '.jpeg', '.json', '.html'],
     alias: {
       components: urls.components,
       assets: urls.assets
@@ -33,11 +33,16 @@ module.exports = {
   },
   module: {
     rules: [{
-      test: /\.(vue|js)$/,
+      test: /\.jsx?$/,
       enforce: "pre",
       loader: 'standard',
       exclude: /(node_modules|bower_components)/
-    }, {
+    }/*, {
+      test: /\.vue$/,
+      enforce: "pre",
+      loader: 'standard',
+      exclude: /(node_modules|bower_components)/
+    }*/, {
       test: /\.vue$/,
       loader: 'vue',
       options: {
@@ -45,7 +50,7 @@ module.exports = {
         postcss: [autoprefixer({ browsers: ['last 2 versions'] })] // TODO
       }
     }, {
-      test: /\.js$/,
+      test: /\.jsx?$/,
       loader: 'babel',
       exclude: /(node_modules|bower_components)/
     }, {

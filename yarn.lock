@@ -419,6 +419,10 @@ babel-helper-replace-supers@^6.14.0, babel-helper-replace-supers@^6.8.0:
     babel-traverse "^6.16.0"
     babel-types "^6.16.0"
 
+babel-helper-vue-jsx-merge-props:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/babel-helper-vue-jsx-merge-props/-/babel-helper-vue-jsx-merge-props-2.0.1.tgz#fa276aa5438b48dba8ead14ced300c025a331f14"
+
 babel-helpers@^6.16.0:
   version "6.16.0"
   resolved "https://registry.yarnpkg.com/babel-helpers/-/babel-helpers-6.16.0.tgz#1095ec10d99279460553e67eb3eee9973d3867e3"
@@ -465,6 +469,10 @@ babel-plugin-syntax-decorators@^6.13.0:
 babel-plugin-syntax-exponentiation-operator@^6.8.0:
   version "6.13.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-syntax-exponentiation-operator/-/babel-plugin-syntax-exponentiation-operator-6.13.0.tgz#9ee7e8337290da95288201a6a57f4170317830de"
+
+babel-plugin-syntax-jsx:
+  version "6.13.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.13.0.tgz#e741ff3992c578310be45c571bcd90a2f9c5586e"
 
 babel-plugin-syntax-object-rest-spread@^6.8.0:
   version "6.13.0"
@@ -713,6 +721,12 @@ babel-plugin-transform-strict-mode@^6.8.0:
   dependencies:
     babel-runtime "^6.0.0"
     babel-types "^6.8.0"
+
+babel-plugin-transform-vue-jsx:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-vue-jsx/-/babel-plugin-transform-vue-jsx-3.1.0.tgz#771565dc24732e44a08862955215eed3c90e4097"
+  dependencies:
+    esutils "^2.0.2"
 
 babel-preset-es2015-node4@^2.0.2:
   version "2.1.0"
