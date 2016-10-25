@@ -3,11 +3,6 @@
     ["es2015", { "modules": false }],
     "stage-2"
   ],
-  "plugins": ["transform-vue-jsx"],
-  "comments": false,
-  "env": {
-    "production": {
-      "plugins": ["transform-runtime"]
-    }
-  }
+  "plugins": ["transform-runtime", "transform-vue-jsx"],
+  "comments": false
 }
