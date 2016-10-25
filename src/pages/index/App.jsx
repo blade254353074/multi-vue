@@ -4,7 +4,6 @@ import Logo from 'assets/imgs/logo.png'
 
 export default {
   render (h) {
-    console.log(h)
     return (
       <div id='app'>
         <img class='logo' src={Logo} />

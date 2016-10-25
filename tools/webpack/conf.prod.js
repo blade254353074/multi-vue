@@ -24,24 +24,7 @@ const webpackConf = merge(webpackConfBase, {
     chunkFilename: 'assets/js/[name].[chunkhash:8].js'
   },
   module: {
-    rules: [
-      ...loaders.style({ sourceMap: true, extract: true }),
-      {
-        test: /\.(jpe?g|png|gif|svg)$/i,
-        loader: 'url',
-        options: {
-          limit: 1000,
-          name: 'assets/imgs/[name].[hash:8].[ext]'
-        }
-      }, {
-        test: /\.(woff2?|eot|ttf|otf)$/i,
-        loader: 'url',
-        options: {
-          limit: 10000,
-          name: 'assets/fonts/[name].[hash:8].[ext]'
-        }
-      }
-    ]
+    rules: loaders.style({ sourceMap: true, extract: true })
   },
   plugins: [
     new webpack.DefinePlugin({

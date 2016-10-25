@@ -6,9 +6,10 @@ Promise.all([
 ])
   .then(([Vue, App]) => {
     /* eslint-disable no-new */
+    console.log(App)
     new Vue({
       el: '#app',
-      render: h => h(App.default)
+      render: h => h(App)
     })
   })
   .catch(console.error)

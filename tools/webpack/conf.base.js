@@ -62,14 +62,14 @@ module.exports = {
       loader: 'url',
       options: {
         limit: 1000,
-        name: 'assets/imgs/[name].[ext]'
+        name: 'assets/imgs/[name].[hash:8].[ext]'
       }
     }, {
       test: /\.(woff2?|eot|ttf|otf)$/i,
       loader: 'url',
       options: {
         limit: 10000,
-        name: 'assets/fonts/[name].[ext]'
+        name: 'assets/fonts/[name].[hash:8].[ext]'
       }
     }, {
       test: /\.html$/,
