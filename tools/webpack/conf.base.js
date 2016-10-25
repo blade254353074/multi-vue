@@ -81,7 +81,7 @@ module.exports = {
   },
   plugins: [
     new Happypack({
-      loaders: ['babel'],
+      loaders: ['babel?cacheDirectory'],
       tempDir: urls.temp
     }),
     new webpack.optimize.CommonsChunkPlugin({

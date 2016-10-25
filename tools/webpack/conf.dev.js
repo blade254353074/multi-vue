@@ -31,8 +31,8 @@ const webpackConf = merge(webpackConfBase, {
     new DashboardPlugin(),
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin(),
-    new OpenBrowserPlugin({ url: `http://localhost:${port}/` }),
-    new webpack.NamedModulesPlugin()
+    new webpack.NamedModulesPlugin(),
+    new OpenBrowserPlugin({ url: `http://localhost:${port}/` })
   ]
 })
 
