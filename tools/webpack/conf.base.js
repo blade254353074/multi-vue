@@ -3,6 +3,7 @@ const webpack = require('webpack')
 
 /* Plugins */
 const autoprefixer = require('autoprefixer')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 const Happypack = require('happypack')
 const loaders = require('./loaders')
 
@@ -11,15 +12,16 @@ const port = 8080
 const urls = require('../urls')
 const ip = require('../config/ip')
 const config = require('../config')
+const { NODE_ENV } = process.env
 
 module.exports = {
-  entry: {
+  entry: Object.assign({
     'vendor': [
       'vue',
       'fastclick',
       urls.bootstrap // 页面初始化
     ]
-  },
+  }, config.entry),
   output: {
     path: urls.build,
     publicPath: '/',
@@ -48,12 +50,8 @@ module.exports = {
       test: /\.vue$/,
       loader: 'vue',
       options: {
-        loaders: loaders.css(),
-        postcss: [
-          require('autoprefixer')({
-            browsers: ['last 2 versions']
-          })
-        ] // TODO
+        loaders: loaders.css({ sourceMap: true, extract: NODE_ENV === 'production' }),
+        postcss: [autoprefixer({ browsers: ['last 2 versions'] })]
       }
     }, {
       test: /\.jsx?$/,
@@ -85,6 +83,11 @@ module.exports = {
     new Happypack({
       loaders: ['babel'],
       tempDir: urls.temp
-    })
+    }),
+    new webpack.optimize.CommonsChunkPlugin({
+      name: 'vendor',
+      minChunks: Infinity
+    }),
+    ...config.htmls.map(conf => new HtmlWebpackPlugin(conf))
   ]
 }

@@ -1,6 +1,5 @@
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
-
 exports.css = function cssLoaders (options) {
   options = Object.assign({}, options)
 
@@ -17,11 +16,11 @@ exports.css = function cssLoaders (options) {
         extraParamChar = '?'
       }
       return loader + (options.sourceMap ? `${extraParamChar}sourceMap` : '')
-    })
+    }).join('!')
 
     return options.extract
-      ? [ExtractTextPlugin.extract('vue-style-loader', sourceLoader)]
-      : ['vue-style-loader', sourceLoader.join('!')].join('!')
+      ? ExtractTextPlugin.extract({ fallbackLoader: 'vue-style-loader', loader: sourceLoader })
+      : ['vue-style-loader', sourceLoader].join('!')
   }
 
   return {

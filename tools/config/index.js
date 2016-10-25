@@ -41,11 +41,11 @@ function constructEntries (templateFiles) {
 function constructEntryObject (pagesAttr, type) {
   let entry = {}
   pagesAttr.map(page => {
-    let entryPart = {}
+    let entryPart = { [page.key]: [] }
     if (type = 'bind') {
       // 'dir/subpage1': [ jspath, htmlpath ]
       if (NODE_ENV !== 'production') {
-        entryPart[page.key] = [page.template]
+        entryPart[page.key].push(page.template)
       }
       if (page.js) {
         entryPart[page.key].push(page.js)
