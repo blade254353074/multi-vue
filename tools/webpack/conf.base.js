@@ -3,6 +3,7 @@ const webpack = require('webpack')
 
 /* Plugins */
 const autoprefixer = require('autoprefixer')
+const Happypack = require('happypack')
 const loaders = require('./loaders')
 
 /* vars */
@@ -56,7 +57,7 @@ module.exports = {
       }
     }, {
       test: /\.jsx?$/,
-      loader: 'babel',
+      loader: 'happypack/loader',
       exclude: /(node_modules|bower_components)/
     }, {
       test: /\.(jpe?g|png|gif|svg)$/i,
@@ -79,5 +80,11 @@ module.exports = {
       test: /\.json$/,
       loader: 'json'
     }]
-  }
+  },
+  plugins: [
+    new Happypack({
+      loaders: ['babel'],
+      tempDir: urls.temp
+    })
+  ]
 }

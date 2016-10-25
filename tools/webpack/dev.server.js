@@ -12,23 +12,27 @@ const server = new WebpackDevServer(compiler, {
   hot: true,
   compress: true,
   noInfo: false,
-  progress: true,
   publicPath: '/',
   stats: {
+    // Config for minimal console.log mess.
+    assets: false,
     colors: true,
-    displayModules: true,
-    profile: true
+    version: true,
+    hash: true,
+    timings: true,
+    chunks: true,
+    chunkModules: false
   }
 })
 
 server.listen(port, host, function (err) {
   if (err) return console.error(err)
-
+  const filledIp = ip + new Array(15 - ip.length).join(' ')
   console.info(`
-┌------------------------------------┐
-├ local IP address is: ${    ip    } ┤
-|                                    |
-├ Listening at ${host}:${port}          ┤
-└------------------------------------┘
+┌----------------------------------┐
+├ local IP address: ${  filledIp } ┤
+|                                  |
+├ Listening at ${host}:${port}        ┤
+└----------------------------------┘
   `.trim(''))
 })
