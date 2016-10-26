@@ -31,10 +31,6 @@ const webpackConf = merge(webpackConfBase, {
     new webpack.DefinePlugin({
       'process.env': { NODE_ENV: '"production"' }
     }),
-    new webpack.LoaderOptionsPlugin({
-      minimize: true,
-      debug: false
-    }),
     new webpack.optimize.UglifyJsPlugin({
       compress: { warnings: false }
     }),
@@ -47,7 +43,7 @@ const webpackConf = merge(webpackConfBase, {
       pngquant: { quality: '70-85' },
       plugins: [imageminMozjpeg({ quality: 90 })]
     }),
-    new ExtractTextPlugin('assets/css/[name].[contenthash:8].min.css'),
+    new ExtractTextPlugin('assets/css/[name].[contenthash:8].css'),
     new webpack.NamedModulesPlugin(),
     new webpack.optimize.DedupePlugin(),
     new WebpackMd5Hash(),

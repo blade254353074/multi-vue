@@ -12,7 +12,7 @@ const port = 8080
 const urls = require('../urls')
 const ip = require('../config/ip')
 const config = require('../config')
-const { NODE_ENV } = process.env
+const prod = process.env.NODE_ENV === 'production'
 
 module.exports = {
   entry: Object.assign({
@@ -48,14 +48,11 @@ module.exports = {
       exclude: /(node_modules|bower_components)/
     }*/, {
       test: /\.vue$/,
-      loader: 'vue',
-      options: {
-        loaders: loaders.css({ sourceMap: true, extract: NODE_ENV === 'production' }),
-        postcss: [autoprefixer({ browsers: ['last 2 versions'] })]
-      }
+      loader: 'vue'
     }, {
       test: /\.jsx?$/,
-      loader: 'happypack/loader',
+      loader: 'babel?cacheDirectory',
+      // loader: 'happypack/loader',
       exclude: /(node_modules|bower_components)/
     }, {
       test: /\.(jpe?g|png|gif|svg)$/i,
@@ -80,13 +77,25 @@ module.exports = {
     }]
   },
   plugins: [
-    new Happypack({
-      loaders: ['babel?cacheDirectory'],
-      tempDir: urls.temp
-    }),
+    // new Happypack({
+    //   loaders: ['babel?cacheDirectory'],
+    //   tempDir: urls.temp
+    // }),
     new webpack.optimize.CommonsChunkPlugin({
       name: 'vendor',
       minChunks: Infinity
+    }),
+    new webpack.LoaderOptionsPlugin({
+      debug: !prod,
+      minimize: prod,
+      options: {
+        context: urls.project,
+        vue: {
+          loaders: loaders.css({ sourceMap: true, extract: prod }),
+          postcss: [autoprefixer({ browsers: ['last 2 versions'] })]
+        },
+        postcss: [autoprefixer({ browsers: ['last 2 versions'] })]
+      }
     }),
     ...config.htmls.map(conf => new HtmlWebpackPlugin(conf))
   ]

@@ -28,7 +28,6 @@ const webpackConf = merge(webpackConfBase, {
     new webpack.DefinePlugin({
       'process.env': { NODE_ENV: '"development"' }
     }),
-    new webpack.LoaderOptionsPlugin({ debug: true }),
     new DashboardPlugin(),
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin(),

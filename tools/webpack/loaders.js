@@ -5,6 +5,7 @@ exports.css = function cssLoaders (options) {
 
   // generate loader string to be used with extract text plugin
   function generateLoaders (loaders) {
+    if (options.style) loaders.splice(1, 0, 'postcss')
     const sourceLoader = loaders.map(function (loader) {
       /* vue-loader 必须加 -loader 必须用字符串 */
       let extraParamChar
@@ -36,6 +37,7 @@ exports.css = function cssLoaders (options) {
 
 // Generate loaders for standalone style files (outside of .vue)
 exports.style = function styleLoaders (options) {
+  options.style = true
   const loaders = exports.css(options)
   const output = []
 
