@@ -32,7 +32,8 @@ const webpackConf = merge(webpackConfBase, {
       'process.env': { NODE_ENV: '"production"' }
     }),
     new webpack.optimize.UglifyJsPlugin({
-      compress: { warnings: false }
+      compress: { warnings: false },
+      sourceMap: true
     }),
     new ImageminPlugin({
       disable: false,
