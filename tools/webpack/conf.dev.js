@@ -14,13 +14,13 @@ const DashboardPlugin = require('webpack-dashboard/plugin')
 const OpenBrowserPlugin = require('open-browser-webpack-plugin')
 
 const webpackConf = merge(webpackConfBase, {
-  devtool: '#eval-source-map',
   entry: {
     '[dev]': [
       `webpack-dev-server/client?http://${ip}:${port}`,
       'webpack/hot/dev-server',
     ]
   },
+  devtool: '#eval-source-map',
   module: {
     rules: loaders.style({ sourceMap: true })
   },
@@ -28,6 +28,7 @@ const webpackConf = merge(webpackConfBase, {
     new webpack.DefinePlugin({
       'process.env': { NODE_ENV: '"development"' }
     }),
+    new webpack.LoaderOptionsPlugin({ debug: true }),
     new DashboardPlugin(),
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin(),

@@ -71,10 +71,10 @@ module.exports = {
         limit: 10000,
         name: 'assets/fonts/[name].[hash:8].[ext]'
       }
-    }, {
+    }/*, {
       test: /\.html$/,
       loader: 'html'
-    }, {
+    }*/, {
       test: /\.json$/,
       loader: 'json'
     }]
