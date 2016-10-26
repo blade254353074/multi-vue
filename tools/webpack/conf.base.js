@@ -2,9 +2,10 @@ const fs = require('fs')
 const webpack = require('webpack')
 
 /* Plugins */
-const autoprefixer = require('autoprefixer')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const Happypack = require('happypack')
+const autoprefixer = require('autoprefixer')
+const postcssPlugins = [autoprefixer({ browsers: ['last 2 versions'] })]
 const loaders = require('./loaders')
 
 /* vars */
@@ -92,9 +93,9 @@ module.exports = {
         context: urls.project,
         vue: {
           loaders: loaders.css({ sourceMap: true, extract: prod }),
-          postcss: [autoprefixer({ browsers: ['last 2 versions'] })]
+          postcss: postcssPlugins
         },
-        postcss: [autoprefixer({ browsers: ['last 2 versions'] })]
+        postcss: postcssPlugins
       }
     }),
     ...config.htmls.map(conf => new HtmlWebpackPlugin(conf))

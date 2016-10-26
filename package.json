@@ -46,7 +46,6 @@
     "json-loader": "^0.5.4",
     "node-sass": "^3.10.1",
     "open-browser-webpack-plugin": "^0.0.2",
-    "postcss": "^5.2.5",
     "postcss-loader": "^1.0.0",
     "rimraf": "^2.5.4",
     "sass-loader": "^4.0.2",

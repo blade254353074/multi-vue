@@ -10,7 +10,7 @@ const webpackConfBase = require('./conf.base')
 const loaders = require('./loaders')
 
 /* Webpack Plugins */
-const ExtractTextPlugin = require("extract-text-webpack-plugin")
+const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const ManifestPlugin = require('webpack-manifest-plugin')
 const WebpackMd5Hash = require('webpack-md5-hash')
 const ImageminPlugin = require('imagemin-webpack-plugin').default
