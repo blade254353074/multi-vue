@@ -11,10 +11,11 @@ With the newest enviroment:
 
 Have these features:
 
+* multi entry, multi vue app;
 * vue-jsx
 * long-term cache
 * 1px in every device (rem.js)
-
+* webpack 2 config
 
 Use these loader to build apps:
 
