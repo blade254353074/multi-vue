@@ -13,6 +13,7 @@ const port = 8080
 const urls = require('../urls')
 const ip = require('../config/ip')
 const config = require('../config')
+const exclude = /(node_modules|bower_components)/
 const prod = process.env.NODE_ENV === 'production'
 
 module.exports = {
@@ -41,12 +42,12 @@ module.exports = {
       test: /\.jsx?$/,
       enforce: "pre",
       loader: 'standard',
-      exclude: /(node_modules|bower_components)/
+      exclude
     }/*, {
       test: /\.vue$/,
       enforce: "pre",
-      loader: 'standard',
-      exclude: /(node_modules|bower_components)/
+      loader: 'eslint',
+      exclude
     }*/, {
       test: /\.vue$/,
       loader: 'vue'
@@ -54,7 +55,7 @@ module.exports = {
       test: /\.jsx?$/,
       loader: 'babel?cacheDirectory',
       // loader: 'happypack/loader',
-      exclude: /(node_modules|bower_components)/
+      exclude
     }, {
       test: /\.(jpe?g|png|gif|svg)$/i,
       loader: 'url',
