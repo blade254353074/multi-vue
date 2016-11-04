@@ -1,8 +1,12 @@
 module.exports = {
   root: true,
   parser: 'babel-eslint',
+  curly: 'warn',
   parserOptions: {
     sourceType: 'module'
+  },
+  env: {
+    browser: true
   },
   // https://github.com/feross/standard/blob/master/RULES.md#javascript-standard-style
   extends: 'standard',

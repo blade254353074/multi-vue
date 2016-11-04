@@ -6,6 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const Happypack = require('happypack')
 const autoprefixer = require('autoprefixer')
 const postcssPlugins = [autoprefixer({ browsers: ['last 2 versions'] })]
+const eslintFriendlyFormatter = require('eslint-friendly-formatter')
 const loaders = require('./loaders')
 
 /* vars */
@@ -43,12 +44,12 @@ module.exports = {
       enforce: "pre",
       loader: 'standard',
       exclude
-    }/*, {
+    }, {
       test: /\.vue$/,
       enforce: "pre",
       loader: 'eslint',
       exclude
-    }*/, {
+    }, {
       test: /\.vue$/,
       loader: 'vue'
     }, {
@@ -92,6 +93,13 @@ module.exports = {
       minimize: prod,
       options: {
         context: urls.project,
+        eslint: {
+          formatter: eslintFriendlyFormatter,
+          emitWarning: true,
+          failOnWarning: false,
+          failOnError: true,
+          fix: true
+        },
         vue: {
           loaders: loaders.css({ sourceMap: true, extract: prod }),
           postcss: postcssPlugins
