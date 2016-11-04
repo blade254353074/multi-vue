@@ -2,6 +2,10 @@
   "name": "vue-multipage",
   "version": "1.0.0",
   "description": "multi-single-application",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blade254353074/multi-vue.git"
+  },
   "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dashboard -- node tools/webpack/dev.server.js",
