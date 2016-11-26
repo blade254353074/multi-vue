@@ -12,6 +12,8 @@
     "dev": "cross-env NODE_ENV=development node tools/webpack/dev.server.js",
     "prebuild": "rimraf ./build",
     "build": "cross-env NODE_ENV=production webpack --config ./tools/webpack/conf.prod.js --progress",
+    "predocs": "rimraf ./docs",
+    "docs": "cross-env NODE_ENV=production webpack --config ./tools/webpack/conf.docs.js --progress",
     "test": "testcafe chrome ./test/testcafe/index.js"
   },
   "keywords": [

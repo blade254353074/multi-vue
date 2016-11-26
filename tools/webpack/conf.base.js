@@ -82,7 +82,7 @@ module.exports = {
     //   tempDir: urls.temp
     // }),
     new webpack.optimize.CommonsChunkPlugin({
-      name: 'vendor',
+      name: ['vendor', 'libs'],
       minChunks: Infinity
     }),
     new webpack.LoaderOptionsPlugin({

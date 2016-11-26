@@ -20,6 +20,7 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPl
 
 const webpackConf = merge(webpackConfBase, {
   output: {
+    path: urls.docs,
     filename: 'assets/js/[name].[chunkhash:8].js',
     chunkFilename: 'assets/js/[name].[chunkhash:8].js'
   },

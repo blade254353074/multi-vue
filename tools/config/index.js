@@ -1,5 +1,4 @@
 const path = require('path')
-const fs = require('fs-extra')
 const glob = require('glob')
 const urls = require('../urls')
 const fileExist = require('./fileExist')
@@ -69,15 +68,16 @@ function constructEntryObject (pagesAttr, type) {
 
 function constructHtmlPluginsConfigArray (pagesAttr) {
   return pagesAttr.map(page => {
+    const dependencies = ['libs', 'vendor']
     let chunks
     let inject
     let config
     if (NODE_ENV !== 'production') {
       inject = true // 注入到头部避免样式震动
-      chunks = ['[dev]', page.templateKey, 'vendor']
+      chunks = ['[dev]', page.templateKey].concat(dependencies)
     } else { // 生产环境
       inject = true
-      chunks = ['vendor']
+      chunks = dependencies
     }
     config = {
       _key: page.key,
@@ -114,7 +114,6 @@ function getPagesConfig () {
     const pagesAttr = constructEntries(templateFiles)
     const entry = constructEntryObject(pagesAttr, 'bind') // Object
     const htmls = constructHtmlPluginsConfigArray(pagesAttr) // Array
-    fs.ensureDirSync(urls.temp) // Create .temp dir
 
     return { entry, htmls }
   } catch (err) {
