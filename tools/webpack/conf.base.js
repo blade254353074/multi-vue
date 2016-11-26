@@ -16,15 +16,12 @@ const ip = require('../config/ip')
 const config = require('../config')
 const exclude = /(node_modules|bower_components)/
 const prod = process.env.NODE_ENV === 'production'
+/* Entries */
+const libs = ['vue', 'vue-router', 'fastclick', 'whatwg-fetch']
+const vendor = [urls.bootstrap]
 
 module.exports = {
-  entry: Object.assign({
-    'vendor': [
-      'vue',
-      'fastclick',
-      urls.bootstrap // 页面初始化
-    ]
-  }, config.entry),
+  entry: Object.assign({ libs, vendor }, config.entry),
   output: {
     path: urls.build,
     publicPath: '/',
@@ -42,41 +39,41 @@ module.exports = {
     rules: [{
       test: /\.jsx?$/,
       enforce: "pre",
-      loader: 'standard',
+      loader: 'standard-loader',
       exclude
     }, {
       test: /\.vue$/,
       enforce: "pre",
-      loader: 'eslint',
+      loader: 'eslint-loader',
       exclude
     }, {
       test: /\.vue$/,
-      loader: 'vue'
+      loader: 'vue-loader'
     }, {
       test: /\.jsx?$/,
-      loader: 'babel?cacheDirectory',
+      loader: 'babel-loader?cacheDirectory',
       // loader: 'happypack/loader',
       exclude
     }, {
       test: /\.(jpe?g|png|gif|svg)$/i,
-      loader: 'url',
+      loader: 'url-loader',
       options: {
         limit: 1000,
         name: 'assets/imgs/[name].[hash:8].[ext]'
       }
     }, {
       test: /\.(woff2?|eot|ttf|otf)$/i,
-      loader: 'url',
+      loader: 'url-loader',
       options: {
         limit: 10000,
         name: 'assets/fonts/[name].[hash:8].[ext]'
       }
     }, {
       test: /\.html$/,
-      loader: 'html'
+      loader: 'html-loader'
     }, {
       test: /\.json$/,
-      loader: 'json'
+      loader: 'json-loader'
     }]
   },
   plugins: [
