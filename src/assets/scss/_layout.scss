@@ -20,9 +20,9 @@ body, html {
 }
 
 .page-bd {
-  padding: 0 size(16) size(50);
+  padding: 0 size(16) size(32);
   &.no-side-space {
-    padding: 0 0 size(50);
+    padding: 0 0 size(32);
   }
   &.no-bottom-space {
     padding: 0 size(16);

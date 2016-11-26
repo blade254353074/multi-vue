@@ -22,14 +22,97 @@ a {
   float: right;
 }
 
+.text-title {
+  color: $gray-title;
+}
+
+.text-highlight {
+  color: $primary;
+}
+
+.text-warning {
+  color: $warning;
+}
+
+.text-danger {
+  color: $danger;
+}
+
 .text-helper {
   color: $gray-help;
 }
 
+.ui-selectable {
+  user-select: all;
+}
+
+/* animations */
 .ui-hiding {
   animation: fadeOut .3s ease both;
 }
 
-.ui-selectable {
-  user-select: all;
+.ui-icon-caret {
+  display: flex;
+  width: 0;
+  height: 0;
+  vertical-align: middle;
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-left: 0.3em solid transparent;
+}
+
+.ui-icon-help {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: size(20);
+  height: size(20);
+  vertical-align: text-top;
+  color: #fff;
+  background-color: $gray-border;
+  border-radius: 100%;
+  &::after {
+    content: '?';
+    line-height: 1em;
+    font-size: size(16);
+    font-weight: bolder;
+  }
+  &:active {
+    background-color: $gray-help;
+  }
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id："177001" */
+  src: url('//at.alicdn.com/t/font_z4q9y7ysp7wopqfr.eot');
+  src: url('//at.alicdn.com/t/font_z4q9y7ysp7wopqfr.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_z4q9y7ysp7wopqfr.woff') format('woff'),
+  url('//at.alicdn.com/t/font_z4q9y7ysp7wopqfr.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_z4q9y7ysp7wopqfr.svg#iconfont') format('svg');
+}
+
+.ui-icon {
+  font-family: "iconfont" !important;
+  font-size: size(16);
+  font-style: normal;
+  color: $primary;
+  background-image: linear-gradient(42deg, $primary, #34b6f1);
+  text-shadow: 0 size(4) size(12) tint($primary, 42%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+  &.no-shadow {
+    text-shadow: none;
+  }
+}
+
+.ui-iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  color: currentColor;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
 }

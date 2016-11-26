@@ -1,0 +1,52 @@
+@import "~assets/scss/global";
+
+.page {
+  opacity: 1;
+}
+/* 前进 */
+.slide-left-enter-active, .slide-left-leave-active {
+  transition: all .3s cubic-bezier(.645,.045,.355,1);
+}
+.slide-left-enter {
+  opacity: 0;
+  transform: translateX(61.8%);
+}
+.slide-left-leave-active {
+  opacity: 0;
+  transform: translateX(-61.8%);
+}
+
+/* 后退 */
+.slide-right-enter-active, .slide-right-leave-active {
+  transition: all .3s cubic-bezier(.645,.045,.355,1);
+}
+.slide-right-enter {
+  opacity: 0;
+  transform: translateX(-61.8%);
+}
+.slide-right-leave-active {
+  opacity: 0;
+  transform: translateX(61.8%);
+}
+
+p {
+  margin-bottom: size(10);
+}
+
+.page-hd {
+  padding: size(40);
+}
+
+.pui-page-title {
+  font-size: size(24);
+  font-weight: 400;
+  color: $gray-title;
+  text-align: left;
+}
+
+.pui-page-desc {
+  margin-top: size(3);
+  color: $gray;
+  text-align: left;
+  font-size: size(14);
+}

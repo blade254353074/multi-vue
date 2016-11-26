@@ -32,5 +32,5 @@
 
   if (!doc.addEventListener) return
   win.addEventListener(resizeEvt, reviewPort, false)
-  doc.addEventListener('DOMContentLoaded', reviewPort, false)
+  reviewPort()
 }())

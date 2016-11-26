@@ -6,12 +6,13 @@ const port = 8080
 const ip = require('../config/ip')
 const urls = require('../urls')
 const webpackConfDev = require('./conf.dev')
+const urlRewrites = require('../config/urlRewrites')
 
 const compiler = webpack(webpackConfDev)
 const server = new WebpackDevServer(compiler, {
   hot: true,
   compress: true,
-  noInfo: false,
+  historyApiFallback: { rewrites: urlRewrites },
   publicPath: '/',
   stats: {
     // Config for minimal console.log mess.

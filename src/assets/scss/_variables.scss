@@ -1,6 +1,7 @@
 // Corlors
 
-$primary: #108ee9;
+$primary: #00a0e9;
+/*$primary: #108ee9;*/
 $primary-click: shade($primary, 16%);
 $primary-hover: tint($primary, 20%);
 $primary-light: tint($primary, 80%);
@@ -24,12 +25,12 @@ $danger-hover: tint($danger, 20%);
 $danger-light: tint($danger, 80%);
 $danger-hover-bg: tint($danger, 90%);
 
-$gray: #666;
 $gray-title: #404040;
+$gray: #666;
 $gray-help: #999;
 $gray-disabled: #ccc;
-$gray-hover: #ddd;
 $gray-border: #d9d9d9;
+$gray-hover: #ddd;
 $gray-split: #e9e9e9;
 $gray-disabled-bg: #f4f4f4;
 $gray-bg: #fbfbfb;

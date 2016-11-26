@@ -1,11 +1,15 @@
+@import "~assets/scss/global";
+
 @mixin buttonType ($type, $color) {
   .ui-button-#{$type} {
     background-color: $color;
-    border-color: $color;
+    background-image: linear-gradient(42deg, $color, tint($color, 30%));
     color: #fff;
+    box-shadow: 0 size(4) size(12) tint($color, 42%);
     &:active {
       color: tint($color, 90%);
       background-color: shade($color, 16%);
+      background-image: linear-gradient(42deg, shade($color, 16%), shade(tint($color, 30%), 16%));
     }
   }
 }
@@ -16,7 +20,7 @@
   padding: size(6) size(12);
   font-size: size(16);
   line-height: 1.5;
-  border: 1px solid $gray-border;
+  border: none;
   color: $gray-title;
   background-color: #fff;
   text-align: center;
@@ -34,6 +38,8 @@
     color: $gray-help;
     border-color: $gray-disabled;
     background-color: $gray-disabled;
+    background-image: linear-gradient(42deg, shade($gray-disabled, 16%), shade(tint($gray-disabled, 30%), 16%));
+    box-shadow: 0 size(4) size(12) tint($gray-disabled, 42%);
     pointer-events: none;
     cursor: not-allowed;
   }

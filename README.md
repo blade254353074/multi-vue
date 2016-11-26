@@ -2,12 +2,13 @@
 
 Multi Vue applications.
 
-With the newest enviroment(2016-10-26):
+With the newest enviroment(2016-11-26):
 
-* webpack@^2.1.0-beta.25
-* webpack-dev-server@2.1.0-beta.9
-* extract-text-webpack-plugin@2.0.0-beta.4
-* vue@^2.0.3
+* webpack@^2.1.0-beta.27
+* webpack-dev-server@beta
+* extract-text-webpack-plugin@beta
+* flow@^0.2.3
+* vue@^2.1.3
 
 Have these features:
 
