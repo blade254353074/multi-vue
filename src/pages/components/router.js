@@ -2,9 +2,14 @@ import VueRouter from 'vue-router'
 import Index from './views/Index'
 import Buttons from './views/Buttons'
 
+const { origin, pathname } = window.location
+const base = origin.indexOf('github.io') > -1
+  ? pathname.split('/').slice(0, 3).join('/')
+  : '/components'
+
 const router = new VueRouter({
   mode: 'history',
-  base: 'components',
+  base,
   routes: [
     { path: '/', component: Index },
     {

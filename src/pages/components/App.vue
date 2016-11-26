@@ -10,7 +10,6 @@ export default {
     '$route' (to, from) {
       const toDepth = to.path.split('/').filter(path => path.length).length
       const fromDepth = from.path.split('/').filter(path => path.length).length
-      console.log(toDepth, fromDepth)
       this.transitionName = toDepth < fromDepth ? 'slide-right' : 'slide-left'
     }
   }
