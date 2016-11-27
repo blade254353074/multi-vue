@@ -5,13 +5,11 @@ import './app.scss'
 import Index from './views/Index'
 
 const { origin, pathname } = window.location
-const base = origin.indexOf('github.io') > -1
-  ? pathname.split('/').slice(0, 2).join('/')
-  : '/'
+const isGithub = origin.indexOf('github.io') > -1
 
 const router = new VueRouter({
-  mode: 'history',
-  base,
+  mode: isGithub ? 'hash' : 'history',
+  base: isGithub ? '/' : '/components',
   routes: [
     { path: '/', component: Index },
     { path: '*', component: () => System.import('components/NotFound') }

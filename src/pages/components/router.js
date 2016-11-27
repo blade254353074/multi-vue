@@ -3,13 +3,11 @@ import Index from './views/Index'
 import Buttons from './views/Buttons'
 
 const { origin, pathname } = window.location
-const base = origin.indexOf('github.io') > -1
-  ? pathname.split('/').slice(0, 3).join('/')
-  : '/components'
+const isGithub = origin.indexOf('github.io') > -1
 
 const router = new VueRouter({
-  mode: 'history',
-  base,
+  mode: isGithub ? 'hash' : 'history',
+  base: isGithub ? '/' : '/components',
   routes: [
     { path: '/', component: Index },
     {
