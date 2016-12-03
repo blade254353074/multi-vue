@@ -74,6 +74,9 @@ module.exports = {
     }, {
       test: /\.json$/,
       loader: 'json-loader'
+    }, {
+      test: require.resolve('whatwg-fetch'),
+      loader: 'imports-loader?this=>global!exports-loader?global.fetch'
     }]
   },
   plugins: [
@@ -81,10 +84,6 @@ module.exports = {
     //   loaders: ['babel?cacheDirectory'],
     //   tempDir: urls.temp
     // }),
-    new webpack.optimize.CommonsChunkPlugin({
-      name: ['vendor', 'libs'],
-      minChunks: Infinity
-    }),
     new webpack.LoaderOptionsPlugin({
       debug: !prod,
       minimize: prod,
@@ -103,6 +102,13 @@ module.exports = {
         },
         postcss: postcssPlugins
       }
+    }),
+    new webpack.ProvidePlugin({
+      'fetch': 'whatwg-fetch'
+    }),
+    new webpack.optimize.CommonsChunkPlugin({
+      names: ['vendor', 'libs', 'manifest'],
+      minChunks: Infinity
     }),
     ...config.htmls.map(conf => new HtmlWebpackPlugin(conf))
   ]

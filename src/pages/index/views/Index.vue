@@ -13,6 +13,7 @@ export default { name: 'Index' }
         <li>whatwg-fetch</li>
       </ol>
     </ul>
+    <p><a href="/components">/components</a></p>
   </main>
 </template>
 

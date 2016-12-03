@@ -4,5 +4,10 @@
     "stage-2"
   ],
   "plugins": ["transform-runtime", "transform-vue-jsx"],
-  "comments": false
+  "comments": false,
+  "env": {
+    "production": {
+      "presets": ["babili"]
+    }
+  }
 }

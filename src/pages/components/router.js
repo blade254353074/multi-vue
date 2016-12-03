@@ -7,6 +7,7 @@ const isGithub = origin.indexOf('github.io') > -1
 
 const router = new VueRouter({
   mode: isGithub ? 'hash' : 'history',
+  base: '/components',
   routes: [
     { path: '/', component: Index },
     {

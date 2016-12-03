@@ -68,7 +68,7 @@ function constructEntryObject (pagesAttr, type) {
 
 function constructHtmlPluginsConfigArray (pagesAttr) {
   return pagesAttr.map(page => {
-    const dependencies = ['libs', 'vendor']
+    const dependencies = ['manifest', 'libs', 'vendor']
     let chunks
     let inject
     let config
