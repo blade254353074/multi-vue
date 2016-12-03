@@ -2,6 +2,11 @@
 
 Multi Vue applications.
 
+##### TODOS:
+
+1. flow - static type check
+2. testcafe - auto ui test
+
 With the newest enviroment(2016-11-26):
 
 * webpack@^2.1.0-beta.27
@@ -9,6 +14,7 @@ With the newest enviroment(2016-11-26):
 * extract-text-webpack-plugin@beta
 * flow@^0.2.3
 * vue@^2.1.3
+* testcafe^0.10.0
 
 Have these features:
 
