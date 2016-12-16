@@ -9,20 +9,20 @@ Multi Vue applications.
 
 With the newest enviroment(2016-11-26):
 
-* webpack@^2.1.0-beta.27
-* webpack-dev-server@beta
-* extract-text-webpack-plugin@beta
+* webpack@v2.2.0-rc.0
+* webpack-dev-server@v2.2.0-rc.0
+* extract-text-webpack-plugin@v2.0.0-beta.4
 * flow@^0.2.3
-* vue@^2.1.3
-* testcafe^0.10.0
+* vue@^2.1.6
+* testcafe^0.11.1
 
 Have these features:
 
-* multi entry, multi vue app;
+* webpack v2 config
+* **long-term cache**
+* multi entry, multi vue app
 * vue-jsx
-* long-term cache
 * 1px in every device (rem.js)
-* webpack 2 config
 
 Use these loader to build apps:
 
