@@ -4,7 +4,6 @@ const merge = require('webpack-merge')
 
 /* Webpack Plugins */
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
-const WebpackMd5Hash = require('webpack-md5-hash')
 const ImageminPlugin = require('imagemin-webpack-plugin').default
 const imageminMozjpeg = require('imagemin-mozjpeg')
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
@@ -48,9 +47,9 @@ const webpackConf = merge(webpackConfBase, {
     }),
     new ExtractTextPlugin('assets/css/[name].[contenthash:8].css'),
     new webpack.NamedModulesPlugin(),
-    new WebpackMd5Hash(),
     new BundleAnalyzerPlugin()
-  ]
+  ],
+  recordsPath: urls.recordsPath
 })
 
 fs.writeFileSync(`${urls.temp}/config.prod.json`, JSON.stringify(webpackConf, null, 2), 'utf8')

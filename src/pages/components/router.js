@@ -10,10 +10,7 @@ const router = new VueRouter({
   base: '/components',
   routes: [
     { path: '/', component: Index },
-    {
-      path: '/buttons',
-      component: Buttons
-    },
+    { path: '/buttons', component: Buttons },
     { path: '*', component: () => System.import('components/NotFound') }
   ],
   scrollBehavior (to, from, savedPosition) {

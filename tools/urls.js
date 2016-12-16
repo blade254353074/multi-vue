@@ -15,6 +15,7 @@ const urls = {
   docs: path.resolve('docs'),
   node_modules: path.resolve('node_modules'),
   webpack: path.resolve('tools/webpack'),
+  recordsPath: path.resolve('tools/webpack/records.json'),
   temp: path.resolve('tools/.temp'),
   /* resource urls */
   assets: path.resolve(src, 'assets'),
