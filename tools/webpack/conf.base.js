@@ -113,6 +113,6 @@ module.exports = {
     ...config.htmls.map(conf => new HtmlWebpackPlugin(conf))
   ],
   performance: {
-    hints: prod
+    hints: prod ? 'warning' : false
   }
 }
