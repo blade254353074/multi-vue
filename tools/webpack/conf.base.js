@@ -111,5 +111,8 @@ module.exports = {
       minChunks: Infinity
     }),
     ...config.htmls.map(conf => new HtmlWebpackPlugin(conf))
-  ]
+  ],
+  performance: {
+    hints: prod
+  }
 }
