@@ -1,13 +1,13 @@
 # Multi Vue
 
-Multi Vue applications.
+Multi Vue applications with webpack 2.
 
 ##### TODOS:
 
-1. flow - static type check
-2. testcafe - auto ui test
+- [ ] flow - static type check
+- [ ] testcafe - auto ui test
 
-With the newest enviroment(2016-11-26):
+With the newest enviroment(2016-12-17):
 
 * webpack@v2.2.0-rc.0
 * webpack-dev-server@v2.2.0-rc.0
