@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import App from './App'
+
 import './app.scss'
+import App from './App'
 import Index from './views/Index'
 
 const { origin } = window.location

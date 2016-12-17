@@ -67,6 +67,57 @@
           "0": 0
         }
       }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!node_modules/html-loader/index.js!src/pages/components/main.html": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/components/main.html"
+        },
+        "usedIds": {
+          "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/components/main.html": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/components/main.html"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!node_modules/html-loader/index.js!src/pages/components/main.html": 0
+        },
+        "usedIds": {
+          "0": 0
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!node_modules/html-loader/index.js!src/pages/components/main.html": 0
+        },
+        "usedIds": {
+          "0": 0
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
     }
   ],
   "html-webpack-plugin for \"index.html\"": [
@@ -128,6 +179,57 @@
         },
         "usedIds": {
           "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/main.html": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/main.html"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!node_modules/html-loader/index.js!src/pages/index/main.html": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/main.html"
+        },
+        "usedIds": {
+          "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/main.html": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/main.html"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!node_modules/html-loader/index.js!src/pages/index/main.html": 0
+        },
+        "usedIds": {
+          "0": 0
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!node_modules/html-loader/index.js!src/pages/index/main.html": 0
+        },
+        "usedIds": {
+          "0": 0
         }
       },
       "chunks": {
@@ -671,6 +773,405 @@
           "0": 0
         }
       }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/assets/scss/base.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/assets/scss/base.scss",
+          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
+        },
+        "usedIds": {
+          "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/assets/scss/base.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/assets/scss/base.scss",
+          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/components/ui/UiButton/style.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/components/ui/UiButton/style.scss",
+          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
+        },
+        "usedIds": {
+          "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/components/ui/UiButton/style.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/components/ui/UiButton/style.scss",
+          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/components/app.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/components/app.scss",
+          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
+        },
+        "usedIds": {
+          "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/components/app.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/components/app.scss",
+          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Buttons.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Buttons.vue",
+          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
+        },
+        "usedIds": {
+          "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Buttons.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Buttons.vue",
+          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Index.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Index.vue",
+          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
+        },
+        "usedIds": {
+          "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Index.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Index.vue",
+          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/index/app.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/index/app.scss",
+          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
+        },
+        "usedIds": {
+          "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/index/app.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/index/app.scss",
+          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/index/views/Index.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/index/views/Index.vue",
+          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
+        },
+        "usedIds": {
+          "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/index/views/Index.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/index/views/Index.vue",
+          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": 0,
+          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/assets/scss/base.scss": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": 0,
+          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/components/ui/UiButton/style.scss": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": 0,
+          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/components/app.scss": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": 0,
+          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Buttons.vue": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": 0,
+          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Index.vue": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": 0,
+          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/index/app.scss": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": 0,
+          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/index/views/Index.vue": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": 0,
+          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/assets/scss/base.scss": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": 0,
+          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/components/ui/UiButton/style.scss": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": 0,
+          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/components/app.scss": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": 0,
+          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Buttons.vue": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": 0,
+          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Index.vue": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": 0,
+          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/index/app.scss": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": 0,
+          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/index/views/Index.vue": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
     }
   ],
   "modules": {
@@ -747,13 +1248,15 @@
       "node_modules/vue-loader/index.js!node_modules/eslint-loader/index.js!src/pages/index/App.vue": "./src/pages/index/App.vue",
       "node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!node_modules/vue-style-loader/index.js!node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/index/app.scss": "./src/pages/index/app.scss",
       "node_modules/babel-loader/lib/index.js?cacheDirectory!node_modules/standard-loader/index.js!src/pages/index/main.js": "./src/pages/index/main.js",
-      "node_modules/vue-loader/index.js!node_modules/eslint-loader/index.js!src/pages/index/views/Index.vue": "./src/pages/index/views/Index.vue"
+      "node_modules/vue-loader/index.js!node_modules/eslint-loader/index.js!src/pages/index/views/Index.vue": "./src/pages/index/views/Index.vue",
+      "node_modules/offline-plugin/runtime.js": 4
     },
     "usedIds": {
       "0": 0,
       "1": 1,
       "2": 2,
       "3": 3,
+      "4": 4,
       "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/NotFound.vue": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/NotFound.vue",
       "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/ui/UiButton/index.vue": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/ui/UiButton/index.vue",
       "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/pages/components/App.vue": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/pages/components/App.vue",
@@ -845,5 +1348,57 @@
       "4": 4,
       "5": 5
     }
-  }
+  },
+  "__offline_serviceworker": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/imports-loader/index.js?this=>global!node_modules/exports-loader/index.js?global.fetch!node_modules/whatwg-fetch/fetch.js": 0,
+          "node_modules/offline-plugin/empty-entry.js": 1,
+          "node_modules/webpack/buildin/global.js": 2,
+          "node_modules/offline-plugin/lib/misc/sw-loader.js?json=%7B%22data_var_name%22%3A%22__wpo%22%2C%22loaders%22%3A%5B%5D%2C%22cacheMaps%22%3A%5B%5D%7D!node_modules/offline-plugin/empty-entry.js": 3
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3
+        }
+      },
+      "chunks": {
+        "byName": {
+          "__offline_serviceworker": 0
+        },
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/imports-loader/index.js?this=>global!node_modules/exports-loader/index.js?global.fetch!node_modules/whatwg-fetch/fetch.js": 0,
+          "node_modules/offline-plugin/empty-entry.js": 1,
+          "node_modules/webpack/buildin/global.js": 2,
+          "node_modules/offline-plugin/lib/misc/sw-loader.js?json=%7B%22data_var_name%22%3A%22__wpo%22%2C%22loaders%22%3A%5B%5D%2C%22cacheMaps%22%3A%5B%5D%7D!node_modules/offline-plugin/empty-entry.js": 3
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3
+        }
+      },
+      "chunks": {
+        "byName": {
+          "__offline_serviceworker": 0
+        },
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    }
+  ]
 }
