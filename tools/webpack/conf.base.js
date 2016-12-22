@@ -5,9 +5,9 @@ const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const Happypack = require('happypack')
 const autoprefixer = require('autoprefixer')
-const postcssPlugins = [autoprefixer({ browsers: ['last 2 versions'] })]
 const eslintFriendlyFormatter = require('eslint-friendly-formatter')
 const loaders = require('./loaders')
+const postcssPlugins = [autoprefixer({ browsers: ['iOS 8', 'Android 4.0'] })]
 
 /* vars */
 const port = 8080

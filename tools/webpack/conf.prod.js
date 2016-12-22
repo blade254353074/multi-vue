@@ -5,7 +5,6 @@ const merge = require('webpack-merge')
 /* Webpack Plugins */
 const ImageminPlugin = require('imagemin-webpack-plugin').default
 const imageminMozjpeg = require('imagemin-mozjpeg')
-const OfflinePlugin = require('offline-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
 
@@ -47,7 +46,6 @@ const webpackConf = merge(webpackConfBase, {
       plugins: [imageminMozjpeg({ quality: 90 })]
     }),
     new ExtractTextPlugin('assets/css/[name].[contenthash:8].css'),
-    new OfflinePlugin(),
     new BundleAnalyzerPlugin()
   ],
   recordsPath: urls.recordsPath

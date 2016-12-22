@@ -63,6 +63,13 @@ function constructEntryObject (pagesAttr, type) {
     Object.assign(entry, entryPart)
   })
 
+  // 过滤无入口的键
+  for (let key in entry) {
+    if (entry[key].length < 1) {
+      delete entry[key]
+    }
+  }
+
   return entry
 }
 
