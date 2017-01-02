@@ -78,9 +78,6 @@ module.exports = {
     }, {
       test: /\.html$/,
       loader: 'html-loader'
-    }, {
-      test: /\.json$/,
-      loader: 'json-loader'
     }]
   },
   plugins: [
