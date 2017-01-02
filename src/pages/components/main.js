@@ -12,3 +12,7 @@ new Vue({
   router,
   render: h => h(App)
 })
+
+window.fetch('http://example.com/', { mode: 'no-cors' })
+  .then(_ => { console.log('GET http://example.com/') })
+  .catch(err => console.error(err))

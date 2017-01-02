@@ -33,8 +33,12 @@ const webpackConf = merge(webpackConfBase, {
       }
     }),
     new webpack.optimize.UglifyJsPlugin({
-      compress: { warnings: false },
-      sourceMap: true
+      compress: {
+        screw_ie8: true,
+        warnings: true
+      },
+      output: { comments: false },
+      sourceMap: false // default is false
     }),
     new ImageminPlugin({
       disable: false,
@@ -46,6 +50,7 @@ const webpackConf = merge(webpackConfBase, {
       plugins: [imageminMozjpeg({ quality: 90 })]
     }),
     new ExtractTextPlugin('assets/css/[name].[contenthash:8].css'),
+    new webpack.HashedModuleIdsPlugin(),
     new BundleAnalyzerPlugin()
   ],
   recordsPath: urls.recordsPath

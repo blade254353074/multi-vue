@@ -55,3 +55,6 @@ test/e2e/reports
 
 # yarn
 yarn-error.log
+
+# custom
+build

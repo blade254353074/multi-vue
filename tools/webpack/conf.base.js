@@ -17,11 +17,13 @@ const config = require('../config')
 const exclude = /(node_modules|bower_components)/
 const prod = process.env.NODE_ENV === 'production'
 /* Entries */
-const libs = ['vue', 'vue-router', 'fastclick', 'whatwg-fetch']
-const vendor = ['components/ui', urls.bootstrap]
+const entry = {
+  libs: ['vue', 'vue-router', 'fastclick', 'es6-promise/auto', 'whatwg-fetch'],
+  vendor: ['components/ui', urls.bootstrap]
+}
 
 module.exports = {
-  entry: Object.assign({ libs, vendor }, config.entry),
+  entry: Object.assign(entry, config.entry),
   output: {
     path: urls.build,
     publicPath: '/',
@@ -31,9 +33,14 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.jsx', '.vue', '.css', '.scss', '.gif', '.png', '.jpg', '.jpeg', '.json', '.html'],
     alias: {
+      // ⤵ https://github.com/babel/babel-loader#babel-is-injecting-helpers-into-each-file-and-bloating-my-code
+      'babel-runtime/core-js/promise': 'es6-promise',
       components: urls.components,
       assets: urls.assets
     }
+  },
+  performance: {
+    hints: prod ? 'warning' : false
   },
   module: {
     rules: [{
@@ -51,7 +58,7 @@ module.exports = {
       loader: 'vue-loader'
     }, {
       test: /\.jsx?$/,
-      loader: 'babel-loader?cacheDirectory',
+      loader: 'babel-loader',
       // loader: 'happypack/loader',
       exclude
     }, {
@@ -74,9 +81,6 @@ module.exports = {
     }, {
       test: /\.json$/,
       loader: 'json-loader'
-    }, {
-      test: require.resolve('whatwg-fetch'),
-      loader: 'imports-loader?this=>global!exports-loader?global.fetch'
     }]
   },
   plugins: [
@@ -91,10 +95,8 @@ module.exports = {
         context: urls.project,
         eslint: {
           formatter: eslintFriendlyFormatter,
-          emitWarning: true,
-          failOnWarning: false,
-          failOnError: true,
-          fix: true
+          // emitWarning: true,
+          configFile: `${urls.project}/.eslintrc.js`
         },
         vue: {
           loaders: loaders.css({ sourceMap: true, extract: prod }),
@@ -103,16 +105,10 @@ module.exports = {
         postcss: postcssPlugins
       }
     }),
-    new webpack.ProvidePlugin({
-      'fetch': 'whatwg-fetch'
-    }),
     new webpack.optimize.CommonsChunkPlugin({
       names: ['vendor', 'libs', 'manifest'],
       minChunks: Infinity
     }),
     ...config.htmls.map(conf => new HtmlWebpackPlugin(conf))
-  ],
-  performance: {
-    hints: prod ? 'warning' : false
-  }
+  ]
 }

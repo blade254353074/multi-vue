@@ -3,146 +3,10 @@
     {
       "modules": {
         "byIdentifier": {
-          "node_modules/html-webpack-plugin/lib/loader.js!node_modules/html-loader/index.js!src/pages/components/main.html": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/components/main.html"
+          "node_modules/.2.25.0@html-webpack-plugin/lib/loader.js!node_modules/.0.4.4@html-loader/index.js!src/pages/components/main.html": "dQHQ"
         },
         "usedIds": {
-          "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/components/main.html": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/components/main.html"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/html-webpack-plugin/lib/loader.js!node_modules/html-loader/index.js!src/pages/components/main.html": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/components/main.html"
-        },
-        "usedIds": {
-          "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/components/main.html": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/components/main.html"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/html-webpack-plugin/lib/loader.js!node_modules/html-loader/index.js!src/pages/components/main.html": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/components/main.html"
-        },
-        "usedIds": {
-          "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/components/main.html": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/components/main.html"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/html-webpack-plugin/lib/loader.js!node_modules/html-loader/index.js!src/pages/components/main.html": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/components/main.html"
-        },
-        "usedIds": {
-          "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/components/main.html": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/components/main.html"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/html-webpack-plugin/lib/loader.js!node_modules/html-loader/index.js!src/pages/components/main.html": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/components/main.html"
-        },
-        "usedIds": {
-          "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/components/main.html": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/components/main.html"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/html-webpack-plugin/lib/loader.js!node_modules/html-loader/index.js!src/pages/components/main.html": 0
-        },
-        "usedIds": {
-          "0": 0
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/html-webpack-plugin/lib/loader.js!node_modules/html-loader/index.js!src/pages/components/main.html": 0
-        },
-        "usedIds": {
-          "0": 0
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/html-webpack-plugin/lib/loader.js!node_modules/html-loader/index.js!src/pages/components/main.html": 0
-        },
-        "usedIds": {
-          "0": 0
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/html-webpack-plugin/lib/loader.js!node_modules/html-loader/index.js!src/pages/components/main.html": 0
-        },
-        "usedIds": {
-          "0": 0
+          "dQHQ": "dQHQ"
         }
       },
       "chunks": {
@@ -158,146 +22,10 @@
     {
       "modules": {
         "byIdentifier": {
-          "node_modules/html-webpack-plugin/lib/loader.js!node_modules/html-loader/index.js!src/pages/index/main.html": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/main.html"
+          "node_modules/.2.25.0@html-webpack-plugin/lib/loader.js!node_modules/.0.4.4@html-loader/index.js!src/pages/index/main.html": "eSHK"
         },
         "usedIds": {
-          "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/main.html": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/main.html"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/html-webpack-plugin/lib/loader.js!node_modules/html-loader/index.js!src/pages/index/main.html": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/main.html"
-        },
-        "usedIds": {
-          "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/main.html": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/main.html"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/html-webpack-plugin/lib/loader.js!node_modules/html-loader/index.js!src/pages/index/main.html": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/main.html"
-        },
-        "usedIds": {
-          "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/main.html": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/main.html"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/html-webpack-plugin/lib/loader.js!node_modules/html-loader/index.js!src/pages/index/main.html": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/main.html"
-        },
-        "usedIds": {
-          "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/main.html": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/main.html"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/html-webpack-plugin/lib/loader.js!node_modules/html-loader/index.js!src/pages/index/main.html": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/main.html"
-        },
-        "usedIds": {
-          "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/main.html": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index/main.html"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/html-webpack-plugin/lib/loader.js!node_modules/html-loader/index.js!src/pages/index/main.html": 0
-        },
-        "usedIds": {
-          "0": 0
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/html-webpack-plugin/lib/loader.js!node_modules/html-loader/index.js!src/pages/index/main.html": 0
-        },
-        "usedIds": {
-          "0": 0
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/html-webpack-plugin/lib/loader.js!node_modules/html-loader/index.js!src/pages/index/main.html": 0
-        },
-        "usedIds": {
-          "0": 0
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/html-webpack-plugin/lib/loader.js!node_modules/html-loader/index.js!src/pages/index/main.html": 0
-        },
-        "usedIds": {
-          "0": 0
+          "eSHK": "eSHK"
         }
       },
       "chunks": {
@@ -313,12 +41,12 @@
     {
       "modules": {
         "byIdentifier": {
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/components/ui/UiButton/style.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/components/ui/UiButton/style.scss",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
+          "node_modules/.0.26.1@css-loader/lib/css-base.js": "H9fF",
+          "node_modules/.0.26.1@css-loader/index.js!node_modules/.1.2.1@postcss-loader/index.js!node_modules/.4.1.1@sass-loader/index.js!src/assets/scss/base.scss": "tBxR"
         },
         "usedIds": {
-          "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/components/ui/UiButton/style.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/components/ui/UiButton/style.scss",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
+          "H9fF": "H9fF",
+          "tBxR": "tBxR"
         }
       },
       "chunks": {
@@ -332,12 +60,12 @@
     {
       "modules": {
         "byIdentifier": {
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/assets/scss/base.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/assets/scss/base.scss",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
+          "node_modules/.0.26.1@css-loader/index.js!node_modules/.1.2.1@postcss-loader/index.js!node_modules/.4.1.1@sass-loader/index.js!src/components/ui/UiButton/style.scss": "Dffy",
+          "node_modules/.0.26.1@css-loader/lib/css-base.js": "H9fF"
         },
         "usedIds": {
-          "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/assets/scss/base.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/assets/scss/base.scss",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
+          "Dffy": "Dffy",
+          "H9fF": "H9fF"
         }
       },
       "chunks": {
@@ -351,12 +79,12 @@
     {
       "modules": {
         "byIdentifier": {
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/components/app.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/components/app.scss",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
+          "node_modules/.0.26.1@css-loader/lib/css-base.js": "H9fF",
+          "node_modules/.0.26.1@css-loader/index.js!node_modules/.1.2.1@postcss-loader/index.js!node_modules/.4.1.1@sass-loader/index.js!src/pages/components/app.scss": "vNZS"
         },
         "usedIds": {
-          "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/components/app.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/components/app.scss",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
+          "H9fF": "H9fF",
+          "vNZS": "vNZS"
         }
       },
       "chunks": {
@@ -370,12 +98,12 @@
     {
       "modules": {
         "byIdentifier": {
-          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Index.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Index.vue",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
+          "node_modules/.0.26.1@css-loader/lib/css-base.js": "H9fF",
+          "node_modules/.0.26.1@css-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!node_modules/.4.1.1@sass-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Buttons.vue": "qJ1J"
         },
         "usedIds": {
-          "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Index.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Index.vue",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
+          "H9fF": "H9fF",
+          "qJ1J": "qJ1J"
         }
       },
       "chunks": {
@@ -389,12 +117,12 @@
     {
       "modules": {
         "byIdentifier": {
-          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Buttons.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Buttons.vue",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
+          "node_modules/.0.26.1@css-loader/lib/css-base.js": "H9fF",
+          "node_modules/.0.26.1@css-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!node_modules/.4.1.1@sass-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Index.vue": "Jwjj"
         },
         "usedIds": {
-          "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Buttons.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Buttons.vue",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
+          "H9fF": "H9fF",
+          "Jwjj": "Jwjj"
         }
       },
       "chunks": {
@@ -408,12 +136,12 @@
     {
       "modules": {
         "byIdentifier": {
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/index/app.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/index/app.scss",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
+          "node_modules/.0.26.1@css-loader/lib/css-base.js": "H9fF",
+          "node_modules/.0.26.1@css-loader/index.js!node_modules/.1.2.1@postcss-loader/index.js!node_modules/.4.1.1@sass-loader/index.js!src/pages/index/app.scss": "flDG"
         },
         "usedIds": {
-          "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/index/app.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/index/app.scss",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
+          "H9fF": "H9fF",
+          "flDG": "flDG"
         }
       },
       "chunks": {
@@ -427,1076 +155,12 @@
     {
       "modules": {
         "byIdentifier": {
-          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/index/views/Index.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/index/views/Index.vue",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
+          "node_modules/.0.26.1@css-loader/lib/css-base.js": "H9fF",
+          "node_modules/.0.26.1@css-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!node_modules/.4.1.1@sass-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/selector.js?type=styles&index=0!src/pages/index/views/Index.vue": "IHz3"
         },
         "usedIds": {
-          "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/index/views/Index.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/index/views/Index.vue",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/components/ui/UiButton/style.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/components/ui/UiButton/style.scss",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        },
-        "usedIds": {
-          "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/components/ui/UiButton/style.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/components/ui/UiButton/style.scss",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/assets/scss/base.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/assets/scss/base.scss",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        },
-        "usedIds": {
-          "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/assets/scss/base.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/assets/scss/base.scss",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/components/app.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/components/app.scss",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        },
-        "usedIds": {
-          "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/components/app.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/components/app.scss",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Index.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Index.vue",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        },
-        "usedIds": {
-          "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Index.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Index.vue",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Buttons.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Buttons.vue",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        },
-        "usedIds": {
-          "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Buttons.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Buttons.vue",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/index/app.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/index/app.scss",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        },
-        "usedIds": {
-          "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/index/app.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/index/app.scss",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/index/views/Index.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/index/views/Index.vue",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        },
-        "usedIds": {
-          "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/index/views/Index.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/index/views/Index.vue",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/assets/scss/base.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/assets/scss/base.scss",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        },
-        "usedIds": {
-          "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/assets/scss/base.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/assets/scss/base.scss",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/components/ui/UiButton/style.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/components/ui/UiButton/style.scss",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        },
-        "usedIds": {
-          "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/components/ui/UiButton/style.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/components/ui/UiButton/style.scss",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/components/app.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/components/app.scss",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        },
-        "usedIds": {
-          "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/components/app.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/components/app.scss",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Buttons.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Buttons.vue",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        },
-        "usedIds": {
-          "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Buttons.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Buttons.vue",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Index.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Index.vue",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        },
-        "usedIds": {
-          "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Index.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Index.vue",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/index/app.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/index/app.scss",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        },
-        "usedIds": {
-          "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/index/app.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/index/app.scss",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/index/views/Index.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/index/views/Index.vue",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        },
-        "usedIds": {
-          "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/index/views/Index.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/index/views/Index.vue",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/assets/scss/base.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/assets/scss/base.scss",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        },
-        "usedIds": {
-          "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/assets/scss/base.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/assets/scss/base.scss",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/components/ui/UiButton/style.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/components/ui/UiButton/style.scss",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        },
-        "usedIds": {
-          "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/components/ui/UiButton/style.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/components/ui/UiButton/style.scss",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/components/app.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/components/app.scss",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        },
-        "usedIds": {
-          "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/components/app.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/components/app.scss",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Buttons.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Buttons.vue",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        },
-        "usedIds": {
-          "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Buttons.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Buttons.vue",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Index.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Index.vue",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        },
-        "usedIds": {
-          "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Index.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Index.vue",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/index/app.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/index/app.scss",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        },
-        "usedIds": {
-          "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/index/app.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/index/app.scss",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/index/views/Index.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/index/views/Index.vue",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        },
-        "usedIds": {
-          "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/index/views/Index.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/index/views/Index.vue",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/assets/scss/base.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/assets/scss/base.scss",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        },
-        "usedIds": {
-          "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/assets/scss/base.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/assets/scss/base.scss",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/components/ui/UiButton/style.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/components/ui/UiButton/style.scss",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        },
-        "usedIds": {
-          "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/components/ui/UiButton/style.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/components/ui/UiButton/style.scss",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/components/app.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/components/app.scss",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        },
-        "usedIds": {
-          "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/components/app.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/components/app.scss",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Buttons.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Buttons.vue",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        },
-        "usedIds": {
-          "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Buttons.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Buttons.vue",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Index.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Index.vue",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        },
-        "usedIds": {
-          "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Index.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Index.vue",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/index/app.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/index/app.scss",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        },
-        "usedIds": {
-          "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/index/app.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/index/app.scss",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/index/views/Index.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/index/views/Index.vue",
-          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        },
-        "usedIds": {
-          "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/index/views/Index.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/index/views/Index.vue",
-          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/lib/css-base.js": 0,
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/assets/scss/base.scss": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/lib/css-base.js": 0,
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/components/ui/UiButton/style.scss": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/lib/css-base.js": 0,
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/components/app.scss": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/lib/css-base.js": 0,
-          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Buttons.vue": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/lib/css-base.js": 0,
-          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Index.vue": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/lib/css-base.js": 0,
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/index/app.scss": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/lib/css-base.js": 0,
-          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/index/views/Index.vue": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/lib/css-base.js": 0,
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/assets/scss/base.scss": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/lib/css-base.js": 0,
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/components/ui/UiButton/style.scss": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/lib/css-base.js": 0,
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/components/app.scss": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/lib/css-base.js": 0,
-          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Buttons.vue": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/lib/css-base.js": 0,
-          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Index.vue": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/lib/css-base.js": 0,
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/index/app.scss": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/lib/css-base.js": 0,
-          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/index/views/Index.vue": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/lib/css-base.js": 0,
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/assets/scss/base.scss": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/lib/css-base.js": 0,
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/components/ui/UiButton/style.scss": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/lib/css-base.js": 0,
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/components/app.scss": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/lib/css-base.js": 0,
-          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Buttons.vue": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/lib/css-base.js": 0,
-          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Index.vue": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/lib/css-base.js": 0,
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/index/app.scss": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/lib/css-base.js": 0,
-          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/index/views/Index.vue": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/lib/css-base.js": 0,
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/assets/scss/base.scss": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/lib/css-base.js": 0,
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/components/ui/UiButton/style.scss": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/lib/css-base.js": 0,
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/components/app.scss": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/lib/css-base.js": 0,
-          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Buttons.vue": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/lib/css-base.js": 0,
-          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Index.vue": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/lib/css-base.js": 0,
-          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/index/app.scss": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {},
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/lib/css-base.js": 0,
-          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/index/views/Index.vue": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
+          "H9fF": "H9fF",
+          "IHz3": "IHz3"
         }
       },
       "chunks": {
@@ -1510,80 +174,83 @@
   ],
   "modules": {
     "byIdentifier": {
-      "node_modules/babel-loader/lib/index.js!node_modules/vue-loader/lib/selector.js?type=script&index=0!src/components/NotFound.vue": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/NotFound.vue",
-      "node_modules/babel-loader/lib/index.js!node_modules/vue-loader/lib/selector.js?type=script&index=0!src/components/ui/UiButton/index.vue": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/ui/UiButton/index.vue",
-      "node_modules/babel-loader/lib/index.js!node_modules/vue-loader/lib/selector.js?type=script&index=0!src/pages/components/App.vue": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/pages/components/App.vue",
-      "node_modules/babel-loader/lib/index.js!node_modules/vue-loader/lib/selector.js?type=script&index=0!src/pages/components/views/Buttons.vue": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/pages/components/views/Buttons.vue",
-      "node_modules/babel-loader/lib/index.js!node_modules/vue-loader/lib/selector.js?type=script&index=0!src/pages/components/views/Index.vue": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/pages/components/views/Index.vue",
-      "node_modules/babel-loader/lib/index.js!node_modules/vue-loader/lib/selector.js?type=script&index=0!src/pages/index/App.vue": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/pages/index/App.vue",
-      "node_modules/babel-loader/lib/index.js!node_modules/vue-loader/lib/selector.js?type=script&index=0!src/pages/index/views/Index.vue": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/pages/index/views/Index.vue",
-      "node_modules/babel-runtime/core-js/object/define-property.js": "./node_modules/babel-runtime/core-js/object/define-property.js",
-      "node_modules/babel-runtime/helpers/defineProperty.js": "./node_modules/babel-runtime/helpers/defineProperty.js",
-      "node_modules/core-js/library/fn/object/define-property.js": "./node_modules/core-js/library/fn/object/define-property.js",
-      "node_modules/core-js/library/modules/_a-function.js": "./node_modules/core-js/library/modules/_a-function.js",
-      "node_modules/core-js/library/modules/_an-object.js": "./node_modules/core-js/library/modules/_an-object.js",
-      "node_modules/core-js/library/modules/_core.js": "./node_modules/core-js/library/modules/_core.js",
-      "node_modules/core-js/library/modules/_ctx.js": "./node_modules/core-js/library/modules/_ctx.js",
-      "node_modules/core-js/library/modules/_descriptors.js": "./node_modules/core-js/library/modules/_descriptors.js",
-      "node_modules/core-js/library/modules/_dom-create.js": "./node_modules/core-js/library/modules/_dom-create.js",
-      "node_modules/core-js/library/modules/_export.js": "./node_modules/core-js/library/modules/_export.js",
-      "node_modules/core-js/library/modules/_fails.js": "./node_modules/core-js/library/modules/_fails.js",
-      "node_modules/core-js/library/modules/_global.js": "./node_modules/core-js/library/modules/_global.js",
-      "node_modules/core-js/library/modules/_hide.js": "./node_modules/core-js/library/modules/_hide.js",
-      "node_modules/core-js/library/modules/_ie8-dom-define.js": "./node_modules/core-js/library/modules/_ie8-dom-define.js",
-      "node_modules/core-js/library/modules/_is-object.js": "./node_modules/core-js/library/modules/_is-object.js",
-      "node_modules/core-js/library/modules/_object-dp.js": "./node_modules/core-js/library/modules/_object-dp.js",
-      "node_modules/core-js/library/modules/_property-desc.js": "./node_modules/core-js/library/modules/_property-desc.js",
-      "node_modules/core-js/library/modules/_to-primitive.js": "./node_modules/core-js/library/modules/_to-primitive.js",
-      "node_modules/core-js/library/modules/es6.object.define-property.js": "./node_modules/core-js/library/modules/es6.object.define-property.js",
-      "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/assets/scss/base.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/assets/scss/base.scss",
-      "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/components/ui/UiButton/style.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/components/ui/UiButton/style.scss",
-      "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/components/app.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/components/app.scss",
-      "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/index/app.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/index/app.scss",
-      "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/index/views/Index.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/index/views/Index.vue",
-      "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Index.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Index.vue",
-      "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-30b0f1f7&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/components/NotFound.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-30b0f1f7&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/NotFound.vue",
-      "multi vendor": 3,
-      "multi libs": 2,
-      "multi index": 1,
-      "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Buttons.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Buttons.vue",
-      "multi components": 0,
-      "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js",
-      "node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!node_modules/vue-style-loader/index.js!node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/index/views/Index.vue": "./node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/index/views/Index.vue",
-      "node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!node_modules/vue-style-loader/index.js!node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Index.vue": "./node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Index.vue",
-      "node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!node_modules/vue-style-loader/index.js!node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-30b0f1f7&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/components/NotFound.vue": "./node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-30b0f1f7&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/NotFound.vue",
-      "node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!node_modules/vue-style-loader/index.js!node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Buttons.vue": "./node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Buttons.vue",
-      "node_modules/fastclick/lib/fastclick.js": "./node_modules/fastclick/lib/fastclick.js",
-      "node_modules/vue-loader/lib/template-compiler.js?id=data-v-06d015d0!node_modules/vue-loader/lib/selector.js?type=template&index=0!src/pages/index/views/Index.vue": "./node_modules/vue-loader/lib/template-compiler.js?id=data-v-06d015d0!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/index/views/Index.vue",
-      "node_modules/vue-loader/lib/template-compiler.js?id=data-v-14b54ca8!node_modules/vue-loader/lib/selector.js?type=template&index=0!src/components/ui/UiButton/index.vue": "./node_modules/vue-loader/lib/template-compiler.js?id=data-v-14b54ca8!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/ui/UiButton/index.vue",
-      "node_modules/vue-loader/lib/template-compiler.js?id=data-v-1e4f2204!node_modules/vue-loader/lib/selector.js?type=template&index=0!src/pages/components/views/Index.vue": "./node_modules/vue-loader/lib/template-compiler.js?id=data-v-1e4f2204!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/components/views/Index.vue",
-      "node_modules/vue-loader/lib/template-compiler.js?id=data-v-30b0f1f7!node_modules/vue-loader/lib/selector.js?type=template&index=0!src/components/NotFound.vue": "./node_modules/vue-loader/lib/template-compiler.js?id=data-v-30b0f1f7!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/NotFound.vue",
-      "node_modules/vue-loader/lib/template-compiler.js?id=data-v-4e1c4ab3!node_modules/vue-loader/lib/selector.js?type=template&index=0!src/pages/components/views/Buttons.vue": "./node_modules/vue-loader/lib/template-compiler.js?id=data-v-4e1c4ab3!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/components/views/Buttons.vue",
-      "node_modules/vue-loader/lib/template-compiler.js?id=data-v-6c68f048!node_modules/vue-loader/lib/selector.js?type=template&index=0!src/pages/index/App.vue": "./node_modules/vue-loader/lib/template-compiler.js?id=data-v-6c68f048!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/index/App.vue",
-      "node_modules/vue-loader/lib/template-compiler.js?id=data-v-cd3c6d98!node_modules/vue-loader/lib/selector.js?type=template&index=0!src/pages/components/App.vue": "./node_modules/vue-loader/lib/template-compiler.js?id=data-v-cd3c6d98!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/components/App.vue",
-      "node_modules/vue-router/dist/vue-router.common.js": "./node_modules/vue-router/dist/vue-router.common.js",
-      "node_modules/vue-style-loader/addStyles.js": "./node_modules/vue-style-loader/addStyles.js",
-      "node_modules/vue/dist/vue.runtime.common.js": "./node_modules/vue/dist/vue.runtime.common.js",
-      "node_modules/webpack/buildin/global.js": "./node_modules/webpack/buildin/global.js",
-      "node_modules/imports-loader/index.js?this=>global!node_modules/exports-loader/index.js?global.fetch!node_modules/whatwg-fetch/fetch.js": "./node_modules/whatwg-fetch/fetch.js",
-      "node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!node_modules/vue-style-loader/index.js!node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/assets/scss/base.scss": "./src/assets/scss/base.scss",
-      "node_modules/vue-loader/index.js!node_modules/eslint-loader/index.js!src/components/NotFound.vue": "./src/components/NotFound.vue",
-      "node_modules/babel-loader/lib/index.js?cacheDirectory!node_modules/standard-loader/index.js!src/components/bootstrap/index.js": "./src/components/bootstrap/index.js",
-      "node_modules/babel-loader/lib/index.js?cacheDirectory!node_modules/standard-loader/index.js!src/components/bootstrap/rem.js": "./src/components/bootstrap/rem.js",
-      "node_modules/vue-loader/index.js!node_modules/eslint-loader/index.js!src/components/ui/UiButton/index.vue": "./src/components/ui/UiButton/index.vue",
-      "node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!node_modules/vue-style-loader/index.js!node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/components/ui/UiButton/style.scss": "./src/components/ui/UiButton/style.scss",
-      "node_modules/babel-loader/lib/index.js?cacheDirectory!node_modules/standard-loader/index.js!src/components/ui/index.js": "./src/components/ui/index.js",
-      "node_modules/vue-loader/index.js!node_modules/eslint-loader/index.js!src/pages/components/App.vue": "./src/pages/components/App.vue",
-      "node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!node_modules/vue-style-loader/index.js!node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/components/app.scss": "./src/pages/components/app.scss",
-      "node_modules/babel-loader/lib/index.js?cacheDirectory!node_modules/standard-loader/index.js!src/pages/components/main.js": "./src/pages/components/main.js",
-      "node_modules/babel-loader/lib/index.js?cacheDirectory!node_modules/standard-loader/index.js!src/pages/components/router.js": "./src/pages/components/router.js",
-      "node_modules/vue-loader/index.js!node_modules/eslint-loader/index.js!src/pages/components/views/Buttons.vue": "./src/pages/components/views/Buttons.vue",
-      "node_modules/vue-loader/index.js!node_modules/eslint-loader/index.js!src/pages/components/views/Index.vue": "./src/pages/components/views/Index.vue",
-      "node_modules/vue-loader/index.js!node_modules/eslint-loader/index.js!src/pages/index/App.vue": "./src/pages/index/App.vue",
-      "node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!node_modules/vue-style-loader/index.js!node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/index/app.scss": "./src/pages/index/app.scss",
-      "node_modules/babel-loader/lib/index.js?cacheDirectory!node_modules/standard-loader/index.js!src/pages/index/main.js": "./src/pages/index/main.js",
-      "node_modules/vue-loader/index.js!node_modules/eslint-loader/index.js!src/pages/index/views/Index.vue": "./src/pages/index/views/Index.vue",
-      "node_modules/offline-plugin/runtime.js": 4
+      "node_modules/.2.0.0-beta.4@extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!node_modules/.1.0.0@vue-style-loader/index.js!node_modules/.0.26.1@css-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/style-rewriter.js?id=data-v-30b0f1f7&scoped=true!node_modules/.4.1.1@sass-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/selector.js?type=styles&index=0!src/components/NotFound.vue": "0h+I",
+      "node_modules/.2.4.1@core-js/library/modules/_ie8-dom-define.js": "2leU",
+      "node_modules/.10.0.2@vue-loader/lib/template-compiler.js?id=data-v-4e1c4ab3!node_modules/.10.0.2@vue-loader/lib/selector.js?type=template&index=0!src/pages/components/views/Buttons.vue": "37g+",
+      "node_modules/.2.4.1@core-js/library/modules/_ctx.js": "5d+i",
+      "node_modules/.2.4.1@core-js/library/modules/_a-function.js": "6QA/",
+      "node_modules/.2.0.0-beta.4@extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!node_modules/.1.0.0@vue-style-loader/index.js!node_modules/.0.26.1@css-loader/index.js!node_modules/.1.2.1@postcss-loader/index.js!node_modules/.4.1.1@sass-loader/index.js!src/assets/scss/base.scss": "6hTs",
+      "node_modules/.2.4.1@core-js/library/modules/_descriptors.js": "8GVT",
+      "node_modules/.6.2.10@babel-loader/lib/index.js!node_modules/.10.0.2@vue-loader/lib/selector.js?type=script&index=0!src/pages/components/views/Index.vue": "8Hpo",
+      "node_modules/.6.20.0@babel-runtime/helpers/defineProperty.js": "BQwC",
+      "node_modules/.2.4.1@core-js/library/modules/_is-object.js": "CbdY",
+      "node_modules/.10.0.2@vue-loader/index.js!node_modules/.1.6.1@eslint-loader/index.js!src/pages/components/App.vue": "Coa0",
+      "node_modules/.6.2.10@babel-loader/lib/index.js!node_modules/.5.0.0@standard-loader/index.js!src/components/ui/index.js": "DDv3",
+      "node_modules/.2.0.0-beta.4@extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!node_modules/.1.0.0@vue-style-loader/index.js!node_modules/.0.26.1@css-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!node_modules/.4.1.1@sass-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/selector.js?type=styles&index=0!src/pages/index/views/Index.vue": "Dcz/",
+      "node_modules/.0.26.1@css-loader/index.js!node_modules/.1.2.1@postcss-loader/index.js!node_modules/.4.1.1@sass-loader/index.js!src/components/ui/UiButton/style.scss": "Dffy",
+      "node_modules/.2.4.1@core-js/library/modules/_dom-create.js": "EJH6",
+      "node_modules/.2.0.1@whatwg-fetch/fetch.js": "G7HR",
+      "node_modules/.2.1.8@vue/dist/vue.runtime.common.js": "Galc",
+      "node_modules/.2.4.1@core-js/library/modules/_global.js": "GwxK",
+      "node_modules/.0.26.1@css-loader/lib/css-base.js": "H9fF",
+      "multi components": 1,
+      "ignored /Users/SebastianBlade/Documents/Workspace/Web/vue/vue-multipage/node_modules/.4.0.5@es6-promise/dist vertx": 0,
+      "node_modules/.2.1.1@vue-router/dist/vue-router.common.js": "HGBO",
+      "multi libs": 3,
+      "multi vendor": 4,
+      "multi index": 2,
+      "node_modules/.2.4.1@core-js/library/modules/_export.js": "HSjv",
+      "node_modules/.0.26.1@css-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!node_modules/.4.1.1@sass-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/selector.js?type=styles&index=0!src/pages/index/views/Index.vue": "IHz3",
+      "node_modules/.6.2.10@babel-loader/lib/index.js!node_modules/.10.0.2@vue-loader/lib/selector.js?type=script&index=0!src/components/NotFound.vue": "Je+f",
+      "node_modules/.0.26.1@css-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!node_modules/.4.1.1@sass-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Index.vue": "Jwjj",
+      "node_modules/.2.4.1@core-js/library/modules/_hide.js": "KSeS",
+      "node_modules/.2.0.0-beta.4@extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!node_modules/.1.0.0@vue-style-loader/index.js!node_modules/.0.26.1@css-loader/index.js!node_modules/.1.2.1@postcss-loader/index.js!node_modules/.4.1.1@sass-loader/index.js!src/pages/components/app.scss": "MKfY",
+      "node_modules/.6.2.10@babel-loader/lib/index.js!node_modules/.5.0.0@standard-loader/index.js!src/pages/index/main.js": "MhDc",
+      "node_modules/.2.0.0-beta.4@extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!node_modules/.1.0.0@vue-style-loader/index.js!node_modules/.0.26.1@css-loader/index.js!node_modules/.1.2.1@postcss-loader/index.js!node_modules/.4.1.1@sass-loader/index.js!src/components/ui/UiButton/style.scss": "N1Yo",
+      "node_modules/.10.0.2@vue-loader/index.js!node_modules/.1.6.1@eslint-loader/index.js!src/pages/components/views/Index.vue": "Ps4R",
+      "node_modules/.6.20.0@babel-runtime/core-js/object/define-property.js": "QwE4",
+      "node_modules/.10.0.2@vue-loader/lib/template-compiler.js?id=data-v-6c68f048!node_modules/.10.0.2@vue-loader/lib/selector.js?type=template&index=0!src/pages/index/App.vue": "R84M",
+      "node_modules/.10.0.2@vue-loader/lib/template-compiler.js?id=data-v-cd3c6d98!node_modules/.10.0.2@vue-loader/lib/selector.js?type=template&index=0!src/pages/components/App.vue": "Sq9M",
+      "node_modules/.1.0.6@fastclick/lib/fastclick.js": "TaEZ",
+      "node_modules/.0.26.1@css-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/style-rewriter.js?id=data-v-30b0f1f7&scoped=true!node_modules/.4.1.1@sass-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/selector.js?type=styles&index=0!src/components/NotFound.vue": "U4XD",
+      "node_modules/.6.2.10@babel-loader/lib/index.js!node_modules/.5.0.0@standard-loader/index.js!src/components/bootstrap/index.js": "W5Vj",
+      "node_modules/.6.2.10@babel-loader/lib/index.js!node_modules/.10.0.2@vue-loader/lib/selector.js?type=script&index=0!src/pages/index/views/Index.vue": "WBOp",
+      "node_modules/.10.0.2@vue-loader/index.js!node_modules/.1.6.1@eslint-loader/index.js!src/components/NotFound.vue": "YcJa",
+      "node_modules/.6.2.10@babel-loader/lib/index.js!node_modules/.10.0.2@vue-loader/lib/selector.js?type=script&index=0!src/pages/index/App.vue": "amWY",
+      "node_modules/.2.0.0-beta.4@extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!node_modules/.1.0.0@vue-style-loader/index.js!node_modules/.0.26.1@css-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!node_modules/.4.1.1@sass-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Buttons.vue": "bq1m",
+      "node_modules/.0.11.9@process/browser.js": "dqgS",
+      "node_modules/.2.0.0-beta.4@extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!node_modules/.1.0.0@vue-style-loader/index.js!node_modules/.0.26.1@css-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!node_modules/.4.1.1@sass-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Index.vue": "eGgC",
+      "node_modules/.2.4.1@core-js/library/modules/_to-primitive.js": "eRrc",
+      "node_modules/.2.2.0-rc.3@webpack/buildin/global.js": "ey8U",
+      "node_modules/.0.26.1@css-loader/index.js!node_modules/.1.2.1@postcss-loader/index.js!node_modules/.4.1.1@sass-loader/index.js!src/pages/index/app.scss": "flDG",
+      "node_modules/.6.2.10@babel-loader/lib/index.js!node_modules/.10.0.2@vue-loader/lib/selector.js?type=script&index=0!src/pages/components/App.vue": "hQcw",
+      "node_modules/.6.2.10@babel-loader/lib/index.js!node_modules/.5.0.0@standard-loader/index.js!src/pages/components/router.js": "hqeA",
+      "node_modules/.1.0.0@vue-style-loader/addStyles.js": "iF9/",
+      "node_modules/.6.2.10@babel-loader/lib/index.js!node_modules/.10.0.2@vue-loader/lib/selector.js?type=script&index=0!src/pages/components/views/Buttons.vue": "jHMn",
+      "node_modules/.6.2.10@babel-loader/lib/index.js!node_modules/.5.0.0@standard-loader/index.js!src/pages/components/main.js": "joi4",
+      "node_modules/.10.0.2@vue-loader/lib/template-compiler.js?id=data-v-06d015d0!node_modules/.10.0.2@vue-loader/lib/selector.js?type=template&index=0!src/pages/index/views/Index.vue": "kCOE",
+      "node_modules/.2.0.0-beta.4@extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!node_modules/.1.0.0@vue-style-loader/index.js!node_modules/.0.26.1@css-loader/index.js!node_modules/.1.2.1@postcss-loader/index.js!node_modules/.4.1.1@sass-loader/index.js!src/pages/index/app.scss": "nq7v",
+      "node_modules/.6.2.10@babel-loader/lib/index.js!node_modules/.10.0.2@vue-loader/lib/selector.js?type=script&index=0!src/components/ui/UiButton/index.vue": "oEr7",
+      "node_modules/.6.2.10@babel-loader/lib/index.js!node_modules/.5.0.0@standard-loader/index.js!src/components/bootstrap/rem.js": "of5D",
+      "node_modules/.2.4.1@core-js/library/modules/_fails.js": "pxnN",
+      "node_modules/.10.0.2@vue-loader/index.js!node_modules/.1.6.1@eslint-loader/index.js!src/components/ui/UiButton/index.vue": "q5JN",
+      "node_modules/.2.4.1@core-js/library/fn/object/define-property.js": "q9uA",
+      "node_modules/.0.26.1@css-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!node_modules/.4.1.1@sass-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Buttons.vue": "qJ1J",
+      "node_modules/.10.0.2@vue-loader/index.js!node_modules/.1.6.1@eslint-loader/index.js!src/pages/index/App.vue": "qOuj",
+      "node_modules/.2.4.1@core-js/library/modules/_property-desc.js": "qR5K",
+      "node_modules/.2.4.1@core-js/library/modules/_an-object.js": "sW0w",
+      "node_modules/.0.26.1@css-loader/index.js!node_modules/.1.2.1@postcss-loader/index.js!node_modules/.4.1.1@sass-loader/index.js!src/assets/scss/base.scss": "tBxR",
+      "node_modules/.2.4.1@core-js/library/modules/_core.js": "toxT",
+      "node_modules/.2.4.1@core-js/library/modules/_object-dp.js": "u6Hs",
+      "node_modules/.0.26.1@css-loader/index.js!node_modules/.1.2.1@postcss-loader/index.js!node_modules/.4.1.1@sass-loader/index.js!src/pages/components/app.scss": "vNZS",
+      "node_modules/.2.4.1@core-js/library/modules/es6.object.define-property.js": "vT50",
+      "node_modules/.10.0.2@vue-loader/index.js!node_modules/.1.6.1@eslint-loader/index.js!src/pages/components/views/Buttons.vue": "vX2t",
+      "node_modules/.10.0.2@vue-loader/index.js!node_modules/.1.6.1@eslint-loader/index.js!src/pages/index/views/Index.vue": "vZuz",
+      "node_modules/.10.0.2@vue-loader/lib/template-compiler.js?id=data-v-30b0f1f7!node_modules/.10.0.2@vue-loader/lib/selector.js?type=template&index=0!src/components/NotFound.vue": "wcWQ",
+      "node_modules/.4.0.5@es6-promise/auto.js": "wdzU",
+      "node_modules/.4.0.5@es6-promise/dist/es6-promise.js": "xjl3",
+      "node_modules/.10.0.2@vue-loader/lib/template-compiler.js?id=data-v-14b54ca8!node_modules/.10.0.2@vue-loader/lib/selector.js?type=template&index=0!src/components/ui/UiButton/index.vue": "xusY",
+      "node_modules/.10.0.2@vue-loader/lib/template-compiler.js?id=data-v-1e4f2204!node_modules/.10.0.2@vue-loader/lib/selector.js?type=template&index=0!src/pages/components/views/Index.vue": "y5mm"
     },
     "usedIds": {
       "0": 0,
@@ -1591,75 +258,78 @@
       "2": 2,
       "3": 3,
       "4": 4,
-      "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/NotFound.vue": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/NotFound.vue",
-      "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/ui/UiButton/index.vue": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/ui/UiButton/index.vue",
-      "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/pages/components/App.vue": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/pages/components/App.vue",
-      "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/pages/components/views/Buttons.vue": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/pages/components/views/Buttons.vue",
-      "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/pages/components/views/Index.vue": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/pages/components/views/Index.vue",
-      "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/pages/index/App.vue": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/pages/index/App.vue",
-      "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/pages/index/views/Index.vue": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/pages/index/views/Index.vue",
-      "./node_modules/babel-runtime/core-js/object/define-property.js": "./node_modules/babel-runtime/core-js/object/define-property.js",
-      "./node_modules/babel-runtime/helpers/defineProperty.js": "./node_modules/babel-runtime/helpers/defineProperty.js",
-      "./node_modules/core-js/library/fn/object/define-property.js": "./node_modules/core-js/library/fn/object/define-property.js",
-      "./node_modules/core-js/library/modules/_a-function.js": "./node_modules/core-js/library/modules/_a-function.js",
-      "./node_modules/core-js/library/modules/_an-object.js": "./node_modules/core-js/library/modules/_an-object.js",
-      "./node_modules/core-js/library/modules/_core.js": "./node_modules/core-js/library/modules/_core.js",
-      "./node_modules/core-js/library/modules/_ctx.js": "./node_modules/core-js/library/modules/_ctx.js",
-      "./node_modules/core-js/library/modules/_descriptors.js": "./node_modules/core-js/library/modules/_descriptors.js",
-      "./node_modules/core-js/library/modules/_dom-create.js": "./node_modules/core-js/library/modules/_dom-create.js",
-      "./node_modules/core-js/library/modules/_export.js": "./node_modules/core-js/library/modules/_export.js",
-      "./node_modules/core-js/library/modules/_fails.js": "./node_modules/core-js/library/modules/_fails.js",
-      "./node_modules/core-js/library/modules/_global.js": "./node_modules/core-js/library/modules/_global.js",
-      "./node_modules/core-js/library/modules/_hide.js": "./node_modules/core-js/library/modules/_hide.js",
-      "./node_modules/core-js/library/modules/_ie8-dom-define.js": "./node_modules/core-js/library/modules/_ie8-dom-define.js",
-      "./node_modules/core-js/library/modules/_is-object.js": "./node_modules/core-js/library/modules/_is-object.js",
-      "./node_modules/core-js/library/modules/_object-dp.js": "./node_modules/core-js/library/modules/_object-dp.js",
-      "./node_modules/core-js/library/modules/_property-desc.js": "./node_modules/core-js/library/modules/_property-desc.js",
-      "./node_modules/core-js/library/modules/_to-primitive.js": "./node_modules/core-js/library/modules/_to-primitive.js",
-      "./node_modules/core-js/library/modules/es6.object.define-property.js": "./node_modules/core-js/library/modules/es6.object.define-property.js",
-      "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/assets/scss/base.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/assets/scss/base.scss",
-      "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/components/ui/UiButton/style.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/components/ui/UiButton/style.scss",
-      "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/components/app.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/components/app.scss",
-      "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/index/app.scss": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/index.js!./node_modules/sass-loader/index.js!./src/pages/index/app.scss",
-      "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/index/views/Index.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/index/views/Index.vue",
-      "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Index.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Index.vue",
-      "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-30b0f1f7&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/NotFound.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-30b0f1f7&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/NotFound.vue",
-      "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Buttons.vue": "./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Buttons.vue",
-      "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js",
-      "./node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/index/views/Index.vue": "./node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/index/views/Index.vue",
-      "./node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Index.vue": "./node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Index.vue",
-      "./node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-30b0f1f7&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/NotFound.vue": "./node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-30b0f1f7&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/NotFound.vue",
-      "./node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Buttons.vue": "./node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js?sourceMap!./node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!./node_modules/sass-loader/index.js?sourceMap!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/pages/components/views/Buttons.vue",
-      "./node_modules/fastclick/lib/fastclick.js": "./node_modules/fastclick/lib/fastclick.js",
-      "./node_modules/vue-loader/lib/template-compiler.js?id=data-v-06d015d0!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/index/views/Index.vue": "./node_modules/vue-loader/lib/template-compiler.js?id=data-v-06d015d0!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/index/views/Index.vue",
-      "./node_modules/vue-loader/lib/template-compiler.js?id=data-v-14b54ca8!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/ui/UiButton/index.vue": "./node_modules/vue-loader/lib/template-compiler.js?id=data-v-14b54ca8!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/ui/UiButton/index.vue",
-      "./node_modules/vue-loader/lib/template-compiler.js?id=data-v-1e4f2204!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/components/views/Index.vue": "./node_modules/vue-loader/lib/template-compiler.js?id=data-v-1e4f2204!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/components/views/Index.vue",
-      "./node_modules/vue-loader/lib/template-compiler.js?id=data-v-30b0f1f7!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/NotFound.vue": "./node_modules/vue-loader/lib/template-compiler.js?id=data-v-30b0f1f7!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/NotFound.vue",
-      "./node_modules/vue-loader/lib/template-compiler.js?id=data-v-4e1c4ab3!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/components/views/Buttons.vue": "./node_modules/vue-loader/lib/template-compiler.js?id=data-v-4e1c4ab3!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/components/views/Buttons.vue",
-      "./node_modules/vue-loader/lib/template-compiler.js?id=data-v-6c68f048!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/index/App.vue": "./node_modules/vue-loader/lib/template-compiler.js?id=data-v-6c68f048!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/index/App.vue",
-      "./node_modules/vue-loader/lib/template-compiler.js?id=data-v-cd3c6d98!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/components/App.vue": "./node_modules/vue-loader/lib/template-compiler.js?id=data-v-cd3c6d98!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/components/App.vue",
-      "./node_modules/vue-router/dist/vue-router.common.js": "./node_modules/vue-router/dist/vue-router.common.js",
-      "./node_modules/vue-style-loader/addStyles.js": "./node_modules/vue-style-loader/addStyles.js",
-      "./node_modules/vue/dist/vue.runtime.common.js": "./node_modules/vue/dist/vue.runtime.common.js",
-      "./node_modules/webpack/buildin/global.js": "./node_modules/webpack/buildin/global.js",
-      "./node_modules/whatwg-fetch/fetch.js": "./node_modules/whatwg-fetch/fetch.js",
-      "./src/assets/scss/base.scss": "./src/assets/scss/base.scss",
-      "./src/components/NotFound.vue": "./src/components/NotFound.vue",
-      "./src/components/bootstrap/index.js": "./src/components/bootstrap/index.js",
-      "./src/components/bootstrap/rem.js": "./src/components/bootstrap/rem.js",
-      "./src/components/ui/UiButton/index.vue": "./src/components/ui/UiButton/index.vue",
-      "./src/components/ui/UiButton/style.scss": "./src/components/ui/UiButton/style.scss",
-      "./src/components/ui/index.js": "./src/components/ui/index.js",
-      "./src/pages/components/App.vue": "./src/pages/components/App.vue",
-      "./src/pages/components/app.scss": "./src/pages/components/app.scss",
-      "./src/pages/components/main.js": "./src/pages/components/main.js",
-      "./src/pages/components/router.js": "./src/pages/components/router.js",
-      "./src/pages/components/views/Buttons.vue": "./src/pages/components/views/Buttons.vue",
-      "./src/pages/components/views/Index.vue": "./src/pages/components/views/Index.vue",
-      "./src/pages/index/App.vue": "./src/pages/index/App.vue",
-      "./src/pages/index/app.scss": "./src/pages/index/app.scss",
-      "./src/pages/index/main.js": "./src/pages/index/main.js",
-      "./src/pages/index/views/Index.vue": "./src/pages/index/views/Index.vue"
+      "0h+I": "0h+I",
+      "2leU": "2leU",
+      "37g+": "37g+",
+      "5d+i": "5d+i",
+      "6QA/": "6QA/",
+      "6hTs": "6hTs",
+      "8GVT": "8GVT",
+      "8Hpo": "8Hpo",
+      "BQwC": "BQwC",
+      "CbdY": "CbdY",
+      "Coa0": "Coa0",
+      "DDv3": "DDv3",
+      "Dcz/": "Dcz/",
+      "Dffy": "Dffy",
+      "EJH6": "EJH6",
+      "G7HR": "G7HR",
+      "Galc": "Galc",
+      "GwxK": "GwxK",
+      "H9fF": "H9fF",
+      "HGBO": "HGBO",
+      "HSjv": "HSjv",
+      "IHz3": "IHz3",
+      "Je+f": "Je+f",
+      "Jwjj": "Jwjj",
+      "KSeS": "KSeS",
+      "MKfY": "MKfY",
+      "MhDc": "MhDc",
+      "N1Yo": "N1Yo",
+      "Ps4R": "Ps4R",
+      "QwE4": "QwE4",
+      "R84M": "R84M",
+      "Sq9M": "Sq9M",
+      "TaEZ": "TaEZ",
+      "U4XD": "U4XD",
+      "W5Vj": "W5Vj",
+      "WBOp": "WBOp",
+      "YcJa": "YcJa",
+      "amWY": "amWY",
+      "bq1m": "bq1m",
+      "dqgS": "dqgS",
+      "eGgC": "eGgC",
+      "eRrc": "eRrc",
+      "ey8U": "ey8U",
+      "flDG": "flDG",
+      "hQcw": "hQcw",
+      "hqeA": "hqeA",
+      "iF9/": "iF9/",
+      "jHMn": "jHMn",
+      "joi4": "joi4",
+      "kCOE": "kCOE",
+      "nq7v": "nq7v",
+      "oEr7": "oEr7",
+      "of5D": "of5D",
+      "pxnN": "pxnN",
+      "q5JN": "q5JN",
+      "q9uA": "q9uA",
+      "qJ1J": "qJ1J",
+      "qOuj": "qOuj",
+      "qR5K": "qR5K",
+      "sW0w": "sW0w",
+      "tBxR": "tBxR",
+      "toxT": "toxT",
+      "u6Hs": "u6Hs",
+      "vNZS": "vNZS",
+      "vT50": "vT50",
+      "vX2t": "vX2t",
+      "vZuz": "vZuz",
+      "wcWQ": "wcWQ",
+      "wdzU": "wdzU",
+      "xjl3": "xjl3",
+      "xusY": "xusY",
+      "y5mm": "y5mm"
     }
   },
   "chunks": {
@@ -1671,8 +341,8 @@
       "manifest": 5
     },
     "byBlocks": {
-      "node_modules/babel-loader/lib/index.js?cacheDirectory!node_modules/standard-loader/index.js!src/pages/components/router.js:0/0": 0,
-      "node_modules/babel-loader/lib/index.js?cacheDirectory!node_modules/standard-loader/index.js!src/pages/index/main.js:0/0": 0
+      "node_modules/.6.2.10@babel-loader/lib/index.js!node_modules/.5.0.0@standard-loader/index.js!src/pages/components/router.js:0/0": 0,
+      "node_modules/.6.2.10@babel-loader/lib/index.js!node_modules/.5.0.0@standard-loader/index.js!src/pages/index/main.js:0/0": 0
     },
     "usedIds": {
       "0": 0,
@@ -1682,57 +352,5 @@
       "4": 4,
       "5": 5
     }
-  },
-  "__offline_serviceworker": [
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/imports-loader/index.js?this=>global!node_modules/exports-loader/index.js?global.fetch!node_modules/whatwg-fetch/fetch.js": 0,
-          "node_modules/offline-plugin/empty-entry.js": 1,
-          "node_modules/webpack/buildin/global.js": 2,
-          "node_modules/offline-plugin/lib/misc/sw-loader.js?json=%7B%22data_var_name%22%3A%22__wpo%22%2C%22loaders%22%3A%5B%5D%2C%22cacheMaps%22%3A%5B%5D%7D!node_modules/offline-plugin/empty-entry.js": 3
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1,
-          "2": 2,
-          "3": 3
-        }
-      },
-      "chunks": {
-        "byName": {
-          "__offline_serviceworker": 0
-        },
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    },
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/imports-loader/index.js?this=>global!node_modules/exports-loader/index.js?global.fetch!node_modules/whatwg-fetch/fetch.js": 0,
-          "node_modules/offline-plugin/empty-entry.js": 1,
-          "node_modules/webpack/buildin/global.js": 2,
-          "node_modules/offline-plugin/lib/misc/sw-loader.js?json=%7B%22data_var_name%22%3A%22__wpo%22%2C%22loaders%22%3A%5B%5D%2C%22cacheMaps%22%3A%5B%5D%7D!node_modules/offline-plugin/empty-entry.js": 3
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1,
-          "2": 2,
-          "3": 3
-        }
-      },
-      "chunks": {
-        "byName": {
-          "__offline_serviceworker": 0
-        },
-        "byBlocks": {},
-        "usedIds": {
-          "0": 0
-        }
-      }
-    }
-  ]
+  }
 }
