@@ -1,5 +1,5 @@
+import FastClick from 'assets/js/fastclick'
 import 'assets/scss/base'
-import FastClick from 'fastclick'
 import './rem'
 
 function bootstrap () {

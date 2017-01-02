@@ -16,6 +16,57 @@
           "0": 0
         }
       }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/.2.25.0@html-webpack-plugin/lib/loader.js!node_modules/.0.4.4@html-loader/index.js!src/pages/components/main.html": "dQHQ"
+        },
+        "usedIds": {
+          "dQHQ": "dQHQ"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/.2.25.0@html-webpack-plugin/lib/loader.js!node_modules/.0.4.4@html-loader/index.js!src/pages/components/main.html": "dQHQ"
+        },
+        "usedIds": {
+          "dQHQ": "dQHQ"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/.2.25.0@html-webpack-plugin/lib/loader.js!node_modules/.0.4.4@html-loader/index.js!src/pages/components/main.html": "dQHQ"
+        },
+        "usedIds": {
+          "dQHQ": "dQHQ"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
     }
   ],
   "html-webpack-plugin for \"index.html\"": [
@@ -35,9 +86,459 @@
           "0": 0
         }
       }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/.2.25.0@html-webpack-plugin/lib/loader.js!node_modules/.0.4.4@html-loader/index.js!src/pages/index/main.html": "eSHK"
+        },
+        "usedIds": {
+          "eSHK": "eSHK"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/.2.25.0@html-webpack-plugin/lib/loader.js!node_modules/.0.4.4@html-loader/index.js!src/pages/index/main.html": "eSHK"
+        },
+        "usedIds": {
+          "eSHK": "eSHK"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/.2.25.0@html-webpack-plugin/lib/loader.js!node_modules/.0.4.4@html-loader/index.js!src/pages/index/main.html": "eSHK"
+        },
+        "usedIds": {
+          "eSHK": "eSHK"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
     }
   ],
   "extract-text-webpack-plugin": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/.0.26.1@css-loader/lib/css-base.js": "H9fF",
+          "node_modules/.0.26.1@css-loader/index.js!node_modules/.1.2.1@postcss-loader/index.js!node_modules/.4.1.1@sass-loader/index.js!src/assets/scss/base.scss": "tBxR"
+        },
+        "usedIds": {
+          "H9fF": "H9fF",
+          "tBxR": "tBxR"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/.0.26.1@css-loader/index.js!node_modules/.1.2.1@postcss-loader/index.js!node_modules/.4.1.1@sass-loader/index.js!src/components/ui/UiButton/style.scss": "Dffy",
+          "node_modules/.0.26.1@css-loader/lib/css-base.js": "H9fF"
+        },
+        "usedIds": {
+          "Dffy": "Dffy",
+          "H9fF": "H9fF"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/.0.26.1@css-loader/lib/css-base.js": "H9fF",
+          "node_modules/.0.26.1@css-loader/index.js!node_modules/.1.2.1@postcss-loader/index.js!node_modules/.4.1.1@sass-loader/index.js!src/pages/components/app.scss": "vNZS"
+        },
+        "usedIds": {
+          "H9fF": "H9fF",
+          "vNZS": "vNZS"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/.0.26.1@css-loader/lib/css-base.js": "H9fF",
+          "node_modules/.0.26.1@css-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!node_modules/.4.1.1@sass-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Buttons.vue": "qJ1J"
+        },
+        "usedIds": {
+          "H9fF": "H9fF",
+          "qJ1J": "qJ1J"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/.0.26.1@css-loader/lib/css-base.js": "H9fF",
+          "node_modules/.0.26.1@css-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!node_modules/.4.1.1@sass-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Index.vue": "Jwjj"
+        },
+        "usedIds": {
+          "H9fF": "H9fF",
+          "Jwjj": "Jwjj"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/.0.26.1@css-loader/lib/css-base.js": "H9fF",
+          "node_modules/.0.26.1@css-loader/index.js!node_modules/.1.2.1@postcss-loader/index.js!node_modules/.4.1.1@sass-loader/index.js!src/pages/index/app.scss": "flDG"
+        },
+        "usedIds": {
+          "H9fF": "H9fF",
+          "flDG": "flDG"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/.0.26.1@css-loader/lib/css-base.js": "H9fF",
+          "node_modules/.0.26.1@css-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!node_modules/.4.1.1@sass-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/selector.js?type=styles&index=0!src/pages/index/views/Index.vue": "IHz3"
+        },
+        "usedIds": {
+          "H9fF": "H9fF",
+          "IHz3": "IHz3"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/.0.26.1@css-loader/lib/css-base.js": "H9fF",
+          "node_modules/.0.26.1@css-loader/index.js!node_modules/.1.2.1@postcss-loader/index.js!node_modules/.4.1.1@sass-loader/index.js!src/assets/scss/base.scss": "tBxR"
+        },
+        "usedIds": {
+          "H9fF": "H9fF",
+          "tBxR": "tBxR"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/.0.26.1@css-loader/index.js!node_modules/.1.2.1@postcss-loader/index.js!node_modules/.4.1.1@sass-loader/index.js!src/components/ui/UiButton/style.scss": "Dffy",
+          "node_modules/.0.26.1@css-loader/lib/css-base.js": "H9fF"
+        },
+        "usedIds": {
+          "Dffy": "Dffy",
+          "H9fF": "H9fF"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/.0.26.1@css-loader/lib/css-base.js": "H9fF",
+          "node_modules/.0.26.1@css-loader/index.js!node_modules/.1.2.1@postcss-loader/index.js!node_modules/.4.1.1@sass-loader/index.js!src/pages/components/app.scss": "vNZS"
+        },
+        "usedIds": {
+          "H9fF": "H9fF",
+          "vNZS": "vNZS"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/.0.26.1@css-loader/lib/css-base.js": "H9fF",
+          "node_modules/.0.26.1@css-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!node_modules/.4.1.1@sass-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Buttons.vue": "qJ1J"
+        },
+        "usedIds": {
+          "H9fF": "H9fF",
+          "qJ1J": "qJ1J"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/.0.26.1@css-loader/lib/css-base.js": "H9fF",
+          "node_modules/.0.26.1@css-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!node_modules/.4.1.1@sass-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Index.vue": "Jwjj"
+        },
+        "usedIds": {
+          "H9fF": "H9fF",
+          "Jwjj": "Jwjj"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/.0.26.1@css-loader/lib/css-base.js": "H9fF",
+          "node_modules/.0.26.1@css-loader/index.js!node_modules/.1.2.1@postcss-loader/index.js!node_modules/.4.1.1@sass-loader/index.js!src/pages/index/app.scss": "flDG"
+        },
+        "usedIds": {
+          "H9fF": "H9fF",
+          "flDG": "flDG"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/.0.26.1@css-loader/lib/css-base.js": "H9fF",
+          "node_modules/.0.26.1@css-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!node_modules/.4.1.1@sass-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/selector.js?type=styles&index=0!src/pages/index/views/Index.vue": "IHz3"
+        },
+        "usedIds": {
+          "H9fF": "H9fF",
+          "IHz3": "IHz3"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/.0.26.1@css-loader/lib/css-base.js": "H9fF",
+          "node_modules/.0.26.1@css-loader/index.js!node_modules/.1.2.1@postcss-loader/index.js!node_modules/.4.1.1@sass-loader/index.js!src/assets/scss/base.scss": "tBxR"
+        },
+        "usedIds": {
+          "H9fF": "H9fF",
+          "tBxR": "tBxR"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/.0.26.1@css-loader/index.js!node_modules/.1.2.1@postcss-loader/index.js!node_modules/.4.1.1@sass-loader/index.js!src/components/ui/UiButton/style.scss": "Dffy",
+          "node_modules/.0.26.1@css-loader/lib/css-base.js": "H9fF"
+        },
+        "usedIds": {
+          "Dffy": "Dffy",
+          "H9fF": "H9fF"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/.0.26.1@css-loader/lib/css-base.js": "H9fF",
+          "node_modules/.0.26.1@css-loader/index.js!node_modules/.1.2.1@postcss-loader/index.js!node_modules/.4.1.1@sass-loader/index.js!src/pages/components/app.scss": "vNZS"
+        },
+        "usedIds": {
+          "H9fF": "H9fF",
+          "vNZS": "vNZS"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/.0.26.1@css-loader/lib/css-base.js": "H9fF",
+          "node_modules/.0.26.1@css-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!node_modules/.4.1.1@sass-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Buttons.vue": "qJ1J"
+        },
+        "usedIds": {
+          "H9fF": "H9fF",
+          "qJ1J": "qJ1J"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/.0.26.1@css-loader/lib/css-base.js": "H9fF",
+          "node_modules/.0.26.1@css-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!node_modules/.4.1.1@sass-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Index.vue": "Jwjj"
+        },
+        "usedIds": {
+          "H9fF": "H9fF",
+          "Jwjj": "Jwjj"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/.0.26.1@css-loader/lib/css-base.js": "H9fF",
+          "node_modules/.0.26.1@css-loader/index.js!node_modules/.1.2.1@postcss-loader/index.js!node_modules/.4.1.1@sass-loader/index.js!src/pages/index/app.scss": "flDG"
+        },
+        "usedIds": {
+          "H9fF": "H9fF",
+          "flDG": "flDG"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/.0.26.1@css-loader/lib/css-base.js": "H9fF",
+          "node_modules/.0.26.1@css-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!node_modules/.4.1.1@sass-loader/index.js?sourceMap!node_modules/.10.0.2@vue-loader/lib/selector.js?type=styles&index=0!src/pages/index/views/Index.vue": "IHz3"
+        },
+        "usedIds": {
+          "H9fF": "H9fF",
+          "IHz3": "IHz3"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
     {
       "modules": {
         "byIdentifier": {
@@ -250,7 +751,8 @@
       "node_modules/.4.0.5@es6-promise/auto.js": "wdzU",
       "node_modules/.4.0.5@es6-promise/dist/es6-promise.js": "xjl3",
       "node_modules/.10.0.2@vue-loader/lib/template-compiler.js?id=data-v-14b54ca8!node_modules/.10.0.2@vue-loader/lib/selector.js?type=template&index=0!src/components/ui/UiButton/index.vue": "xusY",
-      "node_modules/.10.0.2@vue-loader/lib/template-compiler.js?id=data-v-1e4f2204!node_modules/.10.0.2@vue-loader/lib/selector.js?type=template&index=0!src/pages/components/views/Index.vue": "y5mm"
+      "node_modules/.10.0.2@vue-loader/lib/template-compiler.js?id=data-v-1e4f2204!node_modules/.10.0.2@vue-loader/lib/selector.js?type=template&index=0!src/pages/components/views/Index.vue": "y5mm",
+      "node_modules/.6.2.10@babel-loader/lib/index.js!node_modules/.5.0.0@standard-loader/index.js!src/assets/js/fastclick.js": "Cl4I"
     },
     "usedIds": {
       "0": 0,
@@ -329,7 +831,8 @@
       "wdzU": "wdzU",
       "xjl3": "xjl3",
       "xusY": "xusY",
-      "y5mm": "y5mm"
+      "y5mm": "y5mm",
+      "Cl4I": "Cl4I"
     }
   },
   "chunks": {

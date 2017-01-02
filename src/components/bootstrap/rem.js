@@ -30,7 +30,6 @@
     window.viewportScale = dpr
   }
 
-  if (!doc.addEventListener) return
-  win.addEventListener(resizeEvt, reviewPort, false)
   reviewPort()
+  win.addEventListener(resizeEvt, reviewPort, false)
 }())

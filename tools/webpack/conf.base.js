@@ -18,8 +18,17 @@ const exclude = /(node_modules|bower_components)/
 const prod = process.env.NODE_ENV === 'production'
 /* Entries */
 const entry = {
-  libs: ['vue', 'vue-router', 'fastclick', 'es6-promise/auto', 'whatwg-fetch'],
-  vendor: ['components/ui', urls.bootstrap]
+  libs: [
+    'es6-promise/auto',
+    'whatwg-fetch',
+    'vue',
+    'vue-router'
+  ],
+  vendor: [
+    'assets/js/fastclick',
+    'components/ui',
+    urls.bootstrap
+  ]
 }
 
 module.exports = {

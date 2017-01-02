@@ -24,7 +24,6 @@
   "license": "MIT",
   "dependencies": {
     "es6-promise": "^4.0.5",
-    "fastclick": "^1.0.6",
     "flow": "^0.2.3",
     "vue": "^2.1.6",
     "vue-router": "^2.1.1",
