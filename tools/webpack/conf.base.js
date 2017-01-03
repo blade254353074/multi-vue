@@ -68,8 +68,10 @@ module.exports = {
     }, {
       test: /\.jsx?$/,
       loader: 'babel-loader',
-      // loader: 'happypack/loader',
-      exclude
+      exclude,
+      options: {
+        cacheDirectory: true
+      }
     }, {
       test: /\.(jpe?g|png|gif|svg)$/i,
       loader: 'url-loader',
@@ -90,10 +92,6 @@ module.exports = {
     }]
   },
   plugins: [
-    // new Happypack({
-    //   loaders: ['babel?cacheDirectory'],
-    //   tempDir: urls.temp
-    // }),
     new webpack.LoaderOptionsPlugin({
       debug: !prod,
       minimize: prod,

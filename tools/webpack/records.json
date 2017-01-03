@@ -67,6 +67,23 @@
           "0": 0
         }
       }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!node_modules/html-loader/index.js!src/pages/components/main.html": "YEvg"
+        },
+        "usedIds": {
+          "YEvg": "YEvg"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
     }
   ],
   "html-webpack-plugin for \"index.html\"": [
@@ -128,6 +145,23 @@
         },
         "usedIds": {
           "eSHK": "eSHK"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!node_modules/html-loader/index.js!src/pages/index/main.html": "etxX"
+        },
+        "usedIds": {
+          "etxX": "etxX"
         }
       },
       "chunks": {
@@ -671,6 +705,139 @@
           "0": 0
         }
       }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/assets/scss/base.scss": "2W29",
+          "node_modules/css-loader/lib/css-base.js": "FZ+f"
+        },
+        "usedIds": {
+          "2W29": "2W29",
+          "FZ+f": "FZ+f"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/components/ui/UiButton/style.scss": "5Cf0",
+          "node_modules/css-loader/lib/css-base.js": "FZ+f"
+        },
+        "usedIds": {
+          "5Cf0": "5Cf0",
+          "FZ+f": "FZ+f"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": "FZ+f",
+          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/components/app.scss": "LhnU"
+        },
+        "usedIds": {
+          "FZ+f": "FZ+f",
+          "LhnU": "LhnU"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": "FZ+f",
+          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Buttons.vue": "tqQu"
+        },
+        "usedIds": {
+          "FZ+f": "FZ+f",
+          "tqQu": "tqQu"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": "FZ+f",
+          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Index.vue": "vmWu"
+        },
+        "usedIds": {
+          "FZ+f": "FZ+f",
+          "vmWu": "vmWu"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/index/app.scss": "4H55",
+          "node_modules/css-loader/lib/css-base.js": "FZ+f"
+        },
+        "usedIds": {
+          "4H55": "4H55",
+          "FZ+f": "FZ+f"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": "FZ+f",
+          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/index/views/Index.vue": "OsIc"
+        },
+        "usedIds": {
+          "FZ+f": "FZ+f",
+          "OsIc": "OsIc"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
     }
   ],
   "modules": {
@@ -752,7 +919,80 @@
       "node_modules/.4.0.5@es6-promise/dist/es6-promise.js": "xjl3",
       "node_modules/.10.0.2@vue-loader/lib/template-compiler.js?id=data-v-14b54ca8!node_modules/.10.0.2@vue-loader/lib/selector.js?type=template&index=0!src/components/ui/UiButton/index.vue": "xusY",
       "node_modules/.10.0.2@vue-loader/lib/template-compiler.js?id=data-v-1e4f2204!node_modules/.10.0.2@vue-loader/lib/selector.js?type=template&index=0!src/pages/components/views/Index.vue": "y5mm",
-      "node_modules/.6.2.10@babel-loader/lib/index.js!node_modules/.5.0.0@standard-loader/index.js!src/assets/js/fastclick.js": "Cl4I"
+      "node_modules/.6.2.10@babel-loader/lib/index.js!node_modules/.5.0.0@standard-loader/index.js!src/assets/js/fastclick.js": "Cl4I",
+      "node_modules/core-js/library/modules/_descriptors.js": "+E39",
+      "node_modules/core-js/library/modules/_ctx.js": "+ZMJ",
+      "node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!node_modules/vue-style-loader/index.js!node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Buttons.vue": "/7Do",
+      "node_modules/vue-loader/lib/template-compiler.js?id=data-v-14b54ca8!node_modules/vue-loader/lib/selector.js?type=template&index=0!src/components/ui/UiButton/index.vue": "/If2",
+      "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/assets/scss/base.scss": "2W29",
+      "node_modules/babel-loader/lib/index.js!node_modules/vue-loader/lib/selector.js?type=script&index=0!src/pages/index/views/Index.vue": "42FJ",
+      "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/index/app.scss": "4H55",
+      "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/components/ui/UiButton/style.scss": "5Cf0",
+      "node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!node_modules/vue-style-loader/index.js!node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Index.vue": "5Svq",
+      "node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!node_modules/vue-style-loader/index.js!node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/assets/scss/base.scss": "6hTs",
+      "node_modules/core-js/library/modules/_an-object.js": "77Pl",
+      "node_modules/core-js/library/modules/_global.js": "7KvD",
+      "node_modules/vue-style-loader/addStyles.js": "8CB3",
+      "node_modules/core-js/library/fn/object/define-property.js": "9bBU",
+      "node_modules/babel-runtime/core-js/object/define-property.js": "C4MV",
+      "node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true}!node_modules/standard-loader/index.js!src/assets/js/fastclick.js": "Cl4I",
+      "node_modules/vue-loader/index.js!node_modules/eslint-loader/index.js!src/pages/components/App.vue": "Coa0",
+      "node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true}!node_modules/standard-loader/index.js!src/components/ui/index.js": "DDv3",
+      "node_modules/webpack/buildin/global.js": "DuR2",
+      "node_modules/core-js/library/modules/_is-object.js": "EqjI",
+      "node_modules/vue-loader/lib/template-compiler.js?id=data-v-30b0f1f7!node_modules/vue-loader/lib/selector.js?type=template&index=0!src/components/NotFound.vue": "FF3L",
+      "node_modules/css-loader/lib/css-base.js": "FZ+f",
+      "node_modules/core-js/library/modules/_core.js": "FeBl",
+      "node_modules/babel-loader/lib/index.js!node_modules/vue-loader/lib/selector.js?type=script&index=0!src/pages/components/views/Buttons.vue": "JhOO",
+      "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/components/app.scss": "LhnU",
+      "node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!node_modules/vue-style-loader/index.js!node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/components/app.scss": "MKfY",
+      "node_modules/es6-promise/auto.js": "MU8w",
+      "node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true}!node_modules/standard-loader/index.js!src/pages/index/main.js": "MhDc",
+      "node_modules/core-js/library/modules/_to-primitive.js": "MmMw",
+      "node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!node_modules/vue-style-loader/index.js!node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/components/ui/UiButton/style.scss": "N1Yo",
+      "node_modules/vue-loader/lib/template-compiler.js?id=data-v-1e4f2204!node_modules/vue-loader/lib/selector.js?type=template&index=0!src/pages/components/views/Index.vue": "Npcr",
+      "node_modules/core-js/library/modules/_dom-create.js": "ON07",
+      "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/index/views/Index.vue": "OsIc",
+      "node_modules/vue-loader/index.js!node_modules/eslint-loader/index.js!src/pages/components/views/Index.vue": "Ps4R",
+      "node_modules/core-js/library/modules/_fails.js": "S82l",
+      "node_modules/core-js/library/modules/_ie8-dom-define.js": "SfB7",
+      "node_modules/babel-loader/lib/index.js!node_modules/vue-loader/lib/selector.js?type=script&index=0!src/pages/components/App.vue": "Soh+",
+      "node_modules/babel-loader/lib/index.js!node_modules/vue-loader/lib/selector.js?type=script&index=0!src/pages/index/App.vue": "Uoek",
+      "node_modules/process/browser.js": "W2nU",
+      "node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true}!node_modules/standard-loader/index.js!src/components/bootstrap/index.js": "W5Vj",
+      "node_modules/babel-loader/lib/index.js!node_modules/vue-loader/lib/selector.js?type=script&index=0!src/components/NotFound.vue": "WoGI",
+      "node_modules/core-js/library/modules/_property-desc.js": "X8DO",
+      "node_modules/vue-loader/index.js!node_modules/eslint-loader/index.js!src/components/NotFound.vue": "YcJa",
+      "node_modules/babel-runtime/helpers/defineProperty.js": "bOdI",
+      "node_modules/core-js/library/modules/_object-dp.js": "evD5",
+      "node_modules/core-js/library/modules/_hide.js": "hJx8",
+      "node_modules/es6-promise/dist/es6-promise.js": "hKoQ",
+      "node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true}!node_modules/standard-loader/index.js!src/pages/components/router.js": "hqeA",
+      "node_modules/vue-loader/lib/template-compiler.js?id=data-v-cd3c6d98!node_modules/vue-loader/lib/selector.js?type=template&index=0!src/pages/components/App.vue": "j4z8",
+      "node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true}!node_modules/standard-loader/index.js!src/pages/components/main.js": "joi4",
+      "node_modules/core-js/library/modules/_export.js": "kM2E",
+      "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-30b0f1f7&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/components/NotFound.vue": "kVHx",
+      "node_modules/core-js/library/modules/_a-function.js": "lOnJ",
+      "node_modules/vue-router/dist/vue-router.common.js": "lowN",
+      "ignored /Users/SebastianBlade/Documents/Workspace/Web/vue/vue-multipage/node_modules/es6-promise/dist vertx": 5,
+      "node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!node_modules/vue-style-loader/index.js!node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/index/views/Index.vue": "lySf",
+      "node_modules/babel-loader/lib/index.js!node_modules/vue-loader/lib/selector.js?type=script&index=0!src/components/ui/UiButton/index.vue": "m+fJ",
+      "node_modules/core-js/library/modules/es6.object.define-property.js": "mClu",
+      "node_modules/babel-loader/lib/index.js!node_modules/vue-loader/lib/selector.js?type=script&index=0!src/pages/components/views/Index.vue": "mt9i",
+      "node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!node_modules/vue-style-loader/index.js!node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/index/app.scss": "nq7v",
+      "node_modules/vue-loader/lib/template-compiler.js?id=data-v-06d015d0!node_modules/vue-loader/lib/selector.js?type=template&index=0!src/pages/index/views/Index.vue": "nuBQ",
+      "node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true}!node_modules/standard-loader/index.js!src/components/bootstrap/rem.js": "of5D",
+      "node_modules/vue-loader/lib/template-compiler.js?id=data-v-6c68f048!node_modules/vue-loader/lib/selector.js?type=template&index=0!src/pages/index/App.vue": "pAu4",
+      "node_modules/vue-loader/index.js!node_modules/eslint-loader/index.js!src/components/ui/UiButton/index.vue": "q5JN",
+      "node_modules/vue-loader/index.js!node_modules/eslint-loader/index.js!src/pages/index/App.vue": "qOuj",
+      "node_modules/vue/dist/vue.runtime.common.js": "qvlB",
+      "node_modules/vue-loader/lib/template-compiler.js?id=data-v-4e1c4ab3!node_modules/vue-loader/lib/selector.js?type=template&index=0!src/pages/components/views/Buttons.vue": "rH2k",
+      "node_modules/whatwg-fetch/fetch.js": "rplX",
+      "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Buttons.vue": "tqQu",
+      "node_modules/vue-loader/index.js!node_modules/eslint-loader/index.js!src/pages/components/views/Buttons.vue": "vX2t",
+      "node_modules/vue-loader/index.js!node_modules/eslint-loader/index.js!src/pages/index/views/Index.vue": "vZuz",
+      "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Index.vue": "vmWu",
+      "node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"remove\":true}!node_modules/vue-style-loader/index.js!node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-30b0f1f7&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/components/NotFound.vue": "xKQe"
     },
     "usedIds": {
       "0": 0,
@@ -760,6 +1000,7 @@
       "2": 2,
       "3": 3,
       "4": 4,
+      "5": 5,
       "0h+I": "0h+I",
       "2leU": "2leU",
       "37g+": "37g+",
@@ -832,7 +1073,61 @@
       "xjl3": "xjl3",
       "xusY": "xusY",
       "y5mm": "y5mm",
-      "Cl4I": "Cl4I"
+      "Cl4I": "Cl4I",
+      "+E39": "+E39",
+      "+ZMJ": "+ZMJ",
+      "/7Do": "/7Do",
+      "/If2": "/If2",
+      "2W29": "2W29",
+      "42FJ": "42FJ",
+      "4H55": "4H55",
+      "5Cf0": "5Cf0",
+      "5Svq": "5Svq",
+      "77Pl": "77Pl",
+      "7KvD": "7KvD",
+      "8CB3": "8CB3",
+      "9bBU": "9bBU",
+      "C4MV": "C4MV",
+      "DuR2": "DuR2",
+      "EqjI": "EqjI",
+      "FF3L": "FF3L",
+      "FZ+f": "FZ+f",
+      "FeBl": "FeBl",
+      "JhOO": "JhOO",
+      "LhnU": "LhnU",
+      "MU8w": "MU8w",
+      "MmMw": "MmMw",
+      "Npcr": "Npcr",
+      "ON07": "ON07",
+      "OsIc": "OsIc",
+      "S82l": "S82l",
+      "SfB7": "SfB7",
+      "Soh+": "Soh+",
+      "Uoek": "Uoek",
+      "W2nU": "W2nU",
+      "WoGI": "WoGI",
+      "X8DO": "X8DO",
+      "bOdI": "bOdI",
+      "evD5": "evD5",
+      "hJx8": "hJx8",
+      "hKoQ": "hKoQ",
+      "j4z8": "j4z8",
+      "kM2E": "kM2E",
+      "kVHx": "kVHx",
+      "lOnJ": "lOnJ",
+      "lowN": "lowN",
+      "lySf": "lySf",
+      "m+fJ": "m+fJ",
+      "mClu": "mClu",
+      "mt9i": "mt9i",
+      "nuBQ": "nuBQ",
+      "pAu4": "pAu4",
+      "qvlB": "qvlB",
+      "rH2k": "rH2k",
+      "rplX": "rplX",
+      "tqQu": "tqQu",
+      "vmWu": "vmWu",
+      "xKQe": "xKQe"
     }
   },
   "chunks": {
@@ -845,15 +1140,17 @@
     },
     "byBlocks": {
       "node_modules/.6.2.10@babel-loader/lib/index.js!node_modules/.5.0.0@standard-loader/index.js!src/pages/components/router.js:0/0": 0,
-      "node_modules/.6.2.10@babel-loader/lib/index.js!node_modules/.5.0.0@standard-loader/index.js!src/pages/index/main.js:0/0": 0
+      "node_modules/.6.2.10@babel-loader/lib/index.js!node_modules/.5.0.0@standard-loader/index.js!src/pages/index/main.js:0/0": 0,
+      "node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true}!node_modules/standard-loader/index.js!src/pages/components/router.js:0/0": 6,
+      "node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true}!node_modules/standard-loader/index.js!src/pages/index/main.js:0/0": 6
     },
     "usedIds": {
-      "0": 0,
       "1": 1,
       "2": 2,
       "3": 3,
       "4": 4,
-      "5": 5
+      "5": 5,
+      "6": 6
     }
   }
 }
