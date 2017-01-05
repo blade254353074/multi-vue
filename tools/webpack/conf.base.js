@@ -3,7 +3,6 @@ const webpack = require('webpack')
 
 /* Plugins */
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const Happypack = require('happypack')
 const autoprefixer = require('autoprefixer')
 const eslintFriendlyFormatter = require('eslint-friendly-formatter')
 const loaders = require('./loaders')

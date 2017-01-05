@@ -3280,15 +3280,6 @@ handle-thing@^1.2.4:
   version "1.2.5"
   resolved "http://registry.npm.taobao.org/handle-thing/download/handle-thing-1.2.5.tgz#fd7aad726bf1a5fd16dfc29b2f7a6601d27139c4"
 
-happypack@^3.0.1:
-  version "3.0.2"
-  resolved "http://registry.npm.taobao.org/happypack/download/happypack-3.0.2.tgz#795f9abb082f44bab24f4bff616d339c9fd57162"
-  dependencies:
-    async "1.5.0"
-    json-stringify-safe "5.0.1"
-    loader-utils "0.2.16"
-    mkdirp "0.5.1"
-
 har-validator@~2.0.6:
   version "2.0.6"
   resolved "http://registry.npm.taobao.org/har-validator/download/har-validator-2.0.6.tgz#cdcbc08188265ad119b6a5a7c8ab70eecfb5d27d"

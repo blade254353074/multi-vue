@@ -35,7 +35,9 @@ const webpackConf = merge(webpackConfBase, {
     new webpack.optimize.UglifyJsPlugin({
       compress: {
         screw_ie8: true,
-        warnings: false
+        warnings: false,
+        collapse_vars: true,
+        reduce_vars: true
       },
       output: { comments: false },
       sourceMap: false // default is false
