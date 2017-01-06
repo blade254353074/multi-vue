@@ -7,7 +7,6 @@ const port = 8080
 const ip = require('../config/ip')
 const urls = require('../urls')
 const webpackConfBase = require('./conf.base')
-const loaders = require('./loaders')
 
 /* Webpack Plugins */
 const DashboardPlugin = require('webpack-dashboard/plugin')
@@ -21,9 +20,6 @@ const webpackConf = merge(webpackConfBase, {
     ]
   },
   devtool: '#eval-source-map',
-  module: {
-    rules: loaders.style({ sourceMap: true })
-  },
   plugins: [
     new webpack.DefinePlugin({
       'process.env': { NODE_ENV: '"development"' }

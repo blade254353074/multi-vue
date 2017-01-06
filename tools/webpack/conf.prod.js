@@ -13,7 +13,6 @@ const port = 8080
 const ip = require('../config/ip')
 const urls = require('../urls')
 const webpackConfBase = require('./conf.base')
-const loaders = require('./loaders')
 
 const webpackConf = merge(webpackConfBase, {
   output: {
@@ -21,9 +20,6 @@ const webpackConf = merge(webpackConfBase, {
     chunkFilename: 'assets/js/[name].[chunkhash:8].js'
   },
   // devtool: '#source-map',
-  module: {
-    rules: loaders.style({ sourceMap: false, extract: true })
-  },
   profile: true,
   plugins: [
     new webpack.DefinePlugin({

@@ -71,7 +71,9 @@ module.exports = {
       options: {
         cacheDirectory: true
       }
-    }, {
+    },
+    ...loaders.style({ sourceMap: !prod, extract: prod }),
+    {
       test: /\.(jpe?g|png|gif|svg)$/i,
       loader: 'url-loader',
       options: {
