@@ -30,7 +30,7 @@
     "whatwg-fetch": "^2.0.1"
   },
   "devDependencies": {
-    "autoprefixer": "^6.5.4",
+    "autoprefixer": "^6.6.1",
     "babel-core": "^6.20.0",
     "babel-eslint": "^7.1.0",
     "babel-helper-vue-jsx-merge-props": "^2.0.2",
@@ -57,7 +57,7 @@
     "fs-extra": "^1.0.0",
     "glob": "^7.1.1",
     "html-loader": "^0.4.4",
-    "html-webpack-plugin": "^2.24.1",
+    "html-webpack-plugin": "^2.26.0",
     "imagemin-mozjpeg": "^6.0.0",
     "imagemin-webpack-plugin": "^1.2.1",
     "node-sass": "^4.0.0",
@@ -74,8 +74,8 @@
     "vue-template-compiler": "^2.1.6",
     "webpack": "^2.2.0-rc.3",
     "webpack-bundle-analyzer": "^2.1.1",
-    "webpack-dashboard": "^0.2.0",
+    "webpack-dashboard": "^0.2.1",
     "webpack-dev-server": "v2.2.0-rc.0",
-    "webpack-merge": "^1.1.1"
+    "webpack-merge": "^2.2.0"
   }
 }
