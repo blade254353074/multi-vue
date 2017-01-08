@@ -16,18 +16,19 @@ const webpackConf = merge(webpackConfBase, {
   entry: {
     '[dev]': [
       `webpack-dev-server/client?http://${ip}:${port}`,
-      'webpack/hot/dev-server',
+      'webpack/hot/dev-server'
     ]
   },
-  devtool: '#eval-source-map',
+  cache: true,
+  devtool: '#source-map',
   plugins: [
     new webpack.DefinePlugin({
       'process.env': { NODE_ENV: '"development"' }
     }),
-    new DashboardPlugin(),
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin(),
     new webpack.NamedModulesPlugin(),
+    new DashboardPlugin(),
     new OpenBrowserPlugin({ url: `http://localhost:${port}/` })
   ]
 })

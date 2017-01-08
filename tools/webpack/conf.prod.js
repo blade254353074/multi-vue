@@ -48,6 +48,8 @@ const webpackConf = merge(webpackConfBase, {
       plugins: [imageminMozjpeg({ quality: 90 })]
     }),
     new ExtractTextPlugin('assets/css/[name].[contenthash:8].css'),
+    new webpack.optimize.AggressiveMergingPlugin(),
+    new webpack.optimize.MinChunkSizePlugin({ minChunkSize: 10000 }),
     new webpack.HashedModuleIdsPlugin(),
     new BundleAnalyzerPlugin()
   ],
