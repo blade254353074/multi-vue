@@ -84,6 +84,23 @@
           "0": 0
         }
       }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!node_modules/ejs-loader/index.js!src/pages/components/main.ejs": "zCuB"
+        },
+        "usedIds": {
+          "zCuB": "zCuB"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
     }
   ],
   "html-webpack-plugin for \"index.html\"": [
@@ -162,6 +179,23 @@
         },
         "usedIds": {
           "etxX": "etxX"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!node_modules/ejs-loader/index.js!src/pages/index/main.ejs": "GahP"
+        },
+        "usedIds": {
+          "GahP": "GahP"
         }
       },
       "chunks": {
@@ -696,6 +730,139 @@
         "usedIds": {
           "H9fF": "H9fF",
           "IHz3": "IHz3"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/assets/scss/base.scss": "2W29",
+          "node_modules/css-loader/lib/css-base.js": "FZ+f"
+        },
+        "usedIds": {
+          "2W29": "2W29",
+          "FZ+f": "FZ+f"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/components/ui/UiButton/style.scss": "5Cf0",
+          "node_modules/css-loader/lib/css-base.js": "FZ+f"
+        },
+        "usedIds": {
+          "5Cf0": "5Cf0",
+          "FZ+f": "FZ+f"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": "FZ+f",
+          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/components/app.scss": "LhnU"
+        },
+        "usedIds": {
+          "FZ+f": "FZ+f",
+          "LhnU": "LhnU"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": "FZ+f",
+          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-4e1c4ab3&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Buttons.vue": "tqQu"
+        },
+        "usedIds": {
+          "FZ+f": "FZ+f",
+          "tqQu": "tqQu"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": "FZ+f",
+          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-1e4f2204&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/components/views/Index.vue": "vmWu"
+        },
+        "usedIds": {
+          "FZ+f": "FZ+f",
+          "vmWu": "vmWu"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js!src/pages/index/app.scss": "4H55",
+          "node_modules/css-loader/lib/css-base.js": "FZ+f"
+        },
+        "usedIds": {
+          "4H55": "4H55",
+          "FZ+f": "FZ+f"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    },
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": "FZ+f",
+          "node_modules/css-loader/index.js?sourceMap!node_modules/vue-loader/lib/style-rewriter.js?id=data-v-06d015d0&scoped=true!node_modules/sass-loader/index.js?sourceMap!node_modules/vue-loader/lib/selector.js?type=styles&index=0!src/pages/index/views/Index.vue": "OsIc"
+        },
+        "usedIds": {
+          "FZ+f": "FZ+f",
+          "OsIc": "OsIc"
         }
       },
       "chunks": {
