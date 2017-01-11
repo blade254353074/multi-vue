@@ -1,17 +1,15 @@
-const fs = require('fs')
 const webpack = require('webpack')
 
 /* Plugins */
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const InlineManifestWebpackPlugin = require('inline-manifest-webpack-plugin')
 const autoprefixer = require('autoprefixer')
 const eslintFriendlyFormatter = require('eslint-friendly-formatter')
 const loaders = require('./loaders')
 const postcssPlugins = [autoprefixer({ browsers: ['iOS 8', 'Android 4.0'] })]
 
 /* vars */
-const port = 8080
 const urls = require('../urls')
-const ip = require('../config/ip')
 const config = require('../config')
 const exclude = /(node_modules|bower_components)/
 const prod = process.env.NODE_ENV === 'production'
@@ -53,12 +51,12 @@ module.exports = {
   module: {
     rules: [{
       test: /\.jsx?$/,
-      enforce: "pre",
+      enforce: 'pre',
       loader: 'standard-loader',
       exclude
     }, {
       test: /\.vue$/,
-      enforce: "pre",
+      enforce: 'pre',
       loader: 'eslint-loader',
       exclude
     }, {
@@ -72,7 +70,7 @@ module.exports = {
         cacheDirectory: true
       }
     },
-    ...loaders.style({ sourceMap: !prod, extract: prod }),
+      ...loaders.style({ sourceMap: !prod, extract: prod }),
     {
       test: /\.(jpe?g|png|gif|svg)$/i,
       loader: 'url-loader',
@@ -90,6 +88,9 @@ module.exports = {
     }, {
       test: /\.html$/,
       loader: 'html-loader'
+    }, {
+      test: /\.ejs$/,
+      loader: 'ejs-loader'
     }]
   },
   plugins: [
@@ -98,6 +99,13 @@ module.exports = {
       minimize: prod,
       options: {
         context: urls.project,
+        standard: {
+          env: {
+            browser: true,
+            node: false
+          },
+          parser: 'babel-eslint'
+        },
         eslint: {
           formatter: eslintFriendlyFormatter,
           // emitWarning: true,
@@ -111,9 +119,10 @@ module.exports = {
       }
     }),
     new webpack.optimize.CommonsChunkPlugin({
-      names: ['vendor', 'libs', 'manifest'],
+      names: ['manifest', 'libs', 'vendor'].reverse(),
       minChunks: Infinity
     }),
+    new InlineManifestWebpackPlugin(),
     ...config.htmls.map(conf => new HtmlWebpackPlugin(conf))
   ]
 }

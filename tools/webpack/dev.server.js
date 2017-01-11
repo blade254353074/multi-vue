@@ -4,15 +4,20 @@ const WebpackDevServer = require('webpack-dev-server')
 const host = '0.0.0.0'
 const port = 8080
 const ip = require('../config/ip')
-const urls = require('../urls')
 const webpackConfDev = require('./conf.dev')
-const urlRewrites = require('../config/urlRewrites')
 
 const compiler = webpack(webpackConfDev)
 const server = new WebpackDevServer(compiler, {
   hot: true,
   compress: true,
-  historyApiFallback: { rewrites: urlRewrites },
+  historyApiFallback: {
+    rewrites: [{
+      from: /^\/([^/]+|(?!assets))(\/.*|\/$|$)/,
+      to (context) {
+        return `/${context.match[1]}.html`
+      }
+    }]
+  },
   publicPath: '/',
   stats: {
     // Config for minimal console.log mess.
