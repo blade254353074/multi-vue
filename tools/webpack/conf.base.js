@@ -121,7 +121,7 @@ module.exports = {
     }),
     new webpack.optimize.CommonsChunkPlugin({
       names: ['manifest', 'libs', 'vendor'].reverse(),
-      // minChunks: Infinity
+      minChunks: Infinity
     }),
     new InlineManifestWebpackPlugin(),
     ...config.htmls.map(conf => new HtmlWebpackPlugin(conf))
