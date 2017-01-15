@@ -1,13 +1,10 @@
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 exports.css = function cssLoaders (options) {
-  options = Object.assign({}, options)
-
-  // generate loader string to be used with extract text plugin
-  function generateLoaders (loaders) {
+  function generateLoaders (...loaders) {
+    loaders.unshift('css')
     if (options.style) loaders.splice(1, 0, 'postcss')
-    const sourceLoader = loaders.map(function (loader) {
-      /* vue-loader 必须加 -loader 必须用字符串 */
+    const sourceLoader = loaders.map(loader => {
       let extraParamChar
       if (/\?/.test(loader)) {
         loader = loader.replace(/\?/, '-loader?')
@@ -20,31 +17,33 @@ exports.css = function cssLoaders (options) {
     }).join('!')
 
     return options.extract
-      ? ExtractTextPlugin.extract({ fallbackLoader: 'vue-style-loader', loader: sourceLoader })
+      ? ExtractTextPlugin.extract({
+        fallbackLoader: 'vue-style-loader',
+        loader: sourceLoader
+      })
       : ['vue-style-loader', sourceLoader].join('!')
   }
 
   return {
-    css: generateLoaders(['css']),
-    postcss: generateLoaders(['css']),
-    less: generateLoaders(['css', 'less']),
-    sass: generateLoaders(['css', 'sass?indentedSyntax']),
-    scss: generateLoaders(['css', 'sass']),
-    stylus: generateLoaders(['css', 'stylus']),
-    styl: generateLoaders(['css', 'stylus'])
+    css: generateLoaders(),
+    postcss: generateLoaders(),
+    less: generateLoaders('less'),
+    sass: generateLoaders('sass?indentedSyntax'),
+    scss: generateLoaders('sass'),
+    stylus: generateLoaders('stylus'),
+    styl: generateLoaders('stylus')
   }
 }
 
 // Generate loaders for standalone style files (outside of .vue)
 exports.style = function styleLoaders (options) {
-  options.style = true
-  const loaders = exports.css(options)
+  const loaders = exports.css(Object.assign({ style: true }, options))
   const output = []
 
   for (let ext in loaders) {
     output.push({
       test: new RegExp(`\\.${ext}$`),
-      loader: loaders[ext]
+      loaders: loaders[ext]
     })
   }
 

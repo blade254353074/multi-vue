@@ -1,5 +1,4 @@
 const fs = require('fs')
-const webpack = require('webpack')
 const merge = require('webpack-merge')
 
 /* Config */
@@ -11,13 +10,11 @@ const webpackConf = merge(
   {
     output: {
       path: urls.docs,
-      publicPath: '',
-      filename: 'assets/js/[name].[chunkhash:8].js',
-      chunkFilename: 'assets/js/[name].[chunkhash:8].js'
+      publicPath: ''
     }
   }
 )
 
-fs.writeFileSync(`${urls.temp}/config.doc.json`, JSON.stringify(webpackConf, null, 2), 'utf8')
+fs.writeFileSync(`${urls.temp}/config.docs.json`, JSON.stringify(webpackConf, null, 2), 'utf8')
 
 module.exports = webpackConf

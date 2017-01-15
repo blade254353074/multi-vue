@@ -9,8 +9,6 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
 
 /* Config */
-const port = 8080
-const ip = require('../config/ip')
 const urls = require('../urls')
 const webpackConfBase = require('./conf.base')
 

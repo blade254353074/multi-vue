@@ -37,7 +37,7 @@ server.listen(port, host, function (err) {
   const filledIp = ip + new Array(15 - ip.length).join(' ')
   console.info(`
 ┌----------------------------------┐
-├ local IP address: ${ filledIp  } ┤
+├ local IP address: ${filledIp} ┤
 |                                  |
 ├ Listening at ${host}:${port}        ┤
 └----------------------------------┘

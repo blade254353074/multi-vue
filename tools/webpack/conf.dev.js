@@ -26,7 +26,7 @@ const webpackConf = merge(webpackConfBase, {
       'process.env': { NODE_ENV: '"development"' }
     }),
     new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoErrorsPlugin(),
+    new webpack.NoEmitOnErrorsPlugin(),
     new webpack.NamedModulesPlugin(),
     new DashboardPlugin(),
     new OpenBrowserPlugin({ url: `http://localhost:${port}/` })

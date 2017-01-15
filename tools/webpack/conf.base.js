@@ -38,15 +38,16 @@ module.exports = {
   },
   resolve: {
     extensions: ['.js', '.jsx', '.vue', '.css', '.scss', '.gif', '.png', '.jpg', '.jpeg', '.json', '.html'],
+    modules: [
+      urls.src,
+      urls.node_modules
+    ],
     alias: {
       // ⤵ https://github.com/babel/babel-loader#babel-is-injecting-helpers-into-each-file-and-bloating-my-code
       'babel-runtime/core-js/promise': 'es6-promise',
-      components: urls.components,
-      assets: urls.assets
+      // components: urls.components,
+      // assets: urls.assets
     }
-  },
-  performance: {
-    hints: prod ? 'warning' : false
   },
   module: {
     rules: [{
@@ -120,7 +121,7 @@ module.exports = {
     }),
     new webpack.optimize.CommonsChunkPlugin({
       names: ['manifest', 'libs', 'vendor'].reverse(),
-      minChunks: Infinity
+      // minChunks: Infinity
     }),
     new InlineManifestWebpackPlugin(),
     ...config.htmls.map(conf => new HtmlWebpackPlugin(conf))

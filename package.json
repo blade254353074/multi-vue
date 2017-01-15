@@ -11,9 +11,9 @@
     "start": "cross-env NODE_ENV=development webpack-dashboard -- node tools/webpack/dev.server.js",
     "dev": "cross-env NODE_ENV=development node tools/webpack/dev.server.js",
     "prebuild": "rimraf ./build/*",
-    "build": "cross-env NODE_ENV=production webpack --progress --display-reasons --display-chunks --config ./tools/webpack/conf.prod.js",
+    "build": "cross-env NODE_ENV=production webpack -p --progress --config ./tools/webpack/conf.prod.js",
     "predocs": "rimraf ./docs/*",
-    "docs": "cross-env NODE_ENV=production webpack --progress --display-reasons --display-chunks --config ./tools/webpack/conf.docs.js",
+    "docs": "cross-env NODE_ENV=production webpack -p --progress --config ./tools/webpack/conf.docs.js",
     "test": "testcafe chrome ./test/testcafe/index.js"
   },
   "keywords": [
@@ -46,7 +46,7 @@
     "cross-env": "^3.1.3",
     "css-loader": "^0.26.1",
     "ejs-loader": "^0.3.0",
-    "eslint": "^3.12.2",
+    "eslint": "^3.13.1",
     "eslint-config-standard": "^6.2.1",
     "eslint-friendly-formatter": "^2.0.6",
     "eslint-loader": "^1.6.1",
@@ -62,9 +62,9 @@
     "imagemin-mozjpeg": "^6.0.0",
     "imagemin-webpack-plugin": "^1.2.1",
     "inline-manifest-webpack-plugin": "^3.0.1",
-    "node-sass": "^4.0.0",
+    "node-sass": "^4.3.0",
     "open-browser-webpack-plugin": "0.0.3",
-    "postcss-loader": "^1.2.1",
+    "postcss-loader": "^1.2.2",
     "rimraf": "^2.5.4",
     "sass-loader": "^4.1.0",
     "standard": "^8.5.0",
@@ -74,10 +74,10 @@
     "vue-loader": "^10.0.2",
     "vue-style-loader": "^1.0.0",
     "vue-template-compiler": "^2.1.6",
-    "webpack": "^2.2.0-rc.3",
+    "webpack": "^2.2.0-rc.4",
     "webpack-bundle-analyzer": "^2.1.1",
     "webpack-dashboard": "^0.2.1",
     "webpack-dev-server": "v2.2.0-rc.0",
-    "webpack-merge": "^2.2.0"
+    "webpack-merge": "^2.4.0"
   }
 }
