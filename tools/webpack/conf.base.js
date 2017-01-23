@@ -44,9 +44,7 @@ module.exports = {
     ],
     alias: {
       // ⤵ https://github.com/babel/babel-loader#babel-is-injecting-helpers-into-each-file-and-bloating-my-code
-      'babel-runtime/core-js/promise': 'es6-promise',
-      // components: urls.components,
-      // assets: urls.assets
+      'babel-runtime/core-js/promise': 'es6-promise'
     }
   },
   module: {
