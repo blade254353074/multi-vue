@@ -47,11 +47,10 @@ const webpackConf = merge(webpackConfBase, {
     }),
     new ExtractTextPlugin('assets/css/[name].[contenthash:8].css'),
     new webpack.optimize.AggressiveMergingPlugin(),
-    new webpack.optimize.MinChunkSizePlugin({ minChunkSize: 10000 }),
+    new webpack.optimize.MinChunkSizePlugin({ minChunkSize: 7000 }),
     new webpack.HashedModuleIdsPlugin(),
     new BundleAnalyzerPlugin()
-  ],
-  recordsPath: urls.recordsPath
+  ]
 })
 
 fs.writeFileSync(`${urls.temp}/config.prod.json`, JSON.stringify(webpackConf, null, 2), 'utf8')
