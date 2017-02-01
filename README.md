@@ -9,12 +9,10 @@ Multi Vue applications with webpack 2.
 
 With the newest enviroment(2016-12-17):
 
-* webpack@v2.2.0-rc.3
-* webpack-dev-server@v2.2.0-rc.0
-* extract-text-webpack-plugin@v2.0.0-beta.4
-* flow@^0.2.3
+* webpack@v2.2.1
+* webpack-dev-server@v2.2.0
+* extract-text-webpack-plugin@v2.0.0-rc.2
 * vue@^2.1.6
-* testcafe^0.11.1
 
 Have these features:
 
