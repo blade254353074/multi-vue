@@ -41,7 +41,7 @@ function constructEntryObject (pagesAttr, type) {
   let entry = {}
   pagesAttr.map(page => {
     let entryPart = { [page.key]: [] }
-    if (type = 'bind') {
+    if (type === 'bind') {
       // 'dir/subpage1': [ jspath, htmlpath ]
       if (NODE_ENV !== 'production') {
         entryPart[page.key].push(page.template)
@@ -124,7 +124,7 @@ function getPagesConfig () {
 
     return { entry, htmls }
   } catch (err) {
-    console.log("\007") // Beep
+    console.log('\\007') // Beep
     console.error(err)
   }
 }

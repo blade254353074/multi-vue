@@ -1,18 +1,7 @@
 const os = require('os')
+const interfaces = os.networkInterfaces()
 
-function getIPAddress () {
-  const networkInterfaces = os.networkInterfaces()
-  const interfaceArr = networkInterfaces.en0 || networkInterfaces.lo0
-  let ip
-
-  interfaceArr.some(value => {
-    if (value.family === 'IPv4') {
-      ip = value.address
-      return true
-    }
-  })
-
-  return ip
-}
-
-module.exports = getIPAddress()
+module.exports = Object.keys(interfaces)
+  .reduce((arr, key) => arr.concat(interfaces[key]), [])
+  .filter(item => item.family === 'IPv4' && item.internal === false)[0] || []
+  .address || 'localhost'
