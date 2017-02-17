@@ -3,5 +3,5 @@ const interfaces = os.networkInterfaces()
 
 module.exports = Object.keys(interfaces)
   .reduce((arr, key) => arr.concat(interfaces[key]), [])
-  .filter(item => item.family === 'IPv4' && item.internal === false)[0] || []
-  .address || 'localhost'
+  .filter(item => item.family === 'IPv4' && item.internal === false)
+  .reduce((local, item) => item && item.address || local, 'localhost')
